@@ -442,7 +442,7 @@ h2 {
 	}
 	#infoHolder 
 	{
-		width: 498px;
+		width: 100%;
 	}
 	.Menus
 	{
@@ -507,23 +507,23 @@ h2 {
 	{
 		display: none;
 	}
-	#leftMenu ul > li > a 
+	#leftMenu ul > li 
 	{
-		display: block;
+		display: inline;
 	}
-	#imageHolder 
+	#imageHolder
 	{
-		width: 500px;
-		height: 534px;
-		background: url('./pictures/shop.jpg') no-repeat;
+		width: 60%;
+		margin-right: 3px;
+	}
+	img 
+	{
+    	width: 100%;
+    	height: auto;
 	}
 	#infoHolder 
 	{
-		width: 498px;
-	}
-	.Menus
-	{
-		margin-right: 5px;
+		width: 39.5%;
 	}
 }
 @media (max-width: 640px)
@@ -587,10 +587,6 @@ h2 {
 	#leftMenu ul > li 
 	{
 		display: inline;
-	}
-	#imageHolder 
-	{
-		height: auto;
 	}
 	#infoHolder 
 	{
