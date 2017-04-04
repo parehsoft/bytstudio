@@ -82,10 +82,22 @@ h2 {
 
 #openingHours {
 	text-align: center;
+	color: #FFFFFD;
+	font-weight: bold;
 }
 
 #infoHolder > div > ul {
+	list-style: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#infoHolder > div > ul > li {
+	color: #FFFFFD;
 }
 
 #infoHolder > div > ul > li > span {
@@ -94,17 +106,16 @@ h2 {
 
 .boxHolder {
 	float: left;
-	width: 100%;	
+	width: 100%;
+	margin-top: 5px;	
 }
 .SpecialTitle {
-	height: 200px;
+	height: 205px;
 	position: relative;
-	border: 1px solid #3F0C1F;
+	border-top: 2px solid #5D478B;
 	overflow: hidden;
 }
-.SpecialTitle:hover {
-	box-shadow: 0 1px 5px 1px #CCCCCC;
-}
+
 .SpecialTitle span {
 	position: absolute;
 	bottom: 0;
@@ -124,6 +135,10 @@ h2 {
 	background-color: #DEDEDE;
 	text-decoration: underline;
 	text-decoration-color: #5D478B;
+}
+
+.SpecialTitle span:hover {
+	box-shadow: 0 1px 10px 1px #CCCCCC;
 }
 
 /* MEIDA QUERIES ------------------------------- */
