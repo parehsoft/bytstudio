@@ -56,8 +56,8 @@ h2 {
 
 .Menus > ul {
 	padding: 0px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 14px;
+	margin-bottom: 14px;
 }
 
 .Menus > ul > li {
@@ -70,27 +70,15 @@ h2 {
 	color: #FFFFFD;
 	text-decoration: none;
 	font-weight: bold;
-	padding-left: 5px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	padding-right: 2px;
+	padding: 2px;
 }
-
 
 #bottomMenu, #forInstitutes {
 	clear: both;
 }
 
-#bottomMenu > ul > li {
+#bottomMenu > ul > li , #forInstitutes > ul > li {
 	display: inline;
-}
-
-#forInstitutes > ul > li {
-	display: inline;
-}
-
-#leftMenu ul > li > a {
-	display: block;
 }
 
 #imageHolder {
@@ -209,6 +197,9 @@ h2 {
 	{
 		display: none;
 	}
+	#leftMenu ul > li > a {
+		display: block;
+	}
 }
 @media (min-width: 1281px) and (max-width: 1600px)
 {
@@ -268,8 +259,10 @@ h2 {
 	{
 		display: none;
 	}
+	#leftMenu ul > li > a {
+		display: block;
+	}
 }
-
 @media (min-width: 1025px) and (max-width: 1280px)
 { 
 	.fontsize-1280 
@@ -327,6 +320,9 @@ h2 {
 	.col-1280-disabled
 	{
 		display: none;
+	}
+	#leftMenu ul > li > a {
+		display: block;
 	}
 }
 @media (min-width: 801px) and (max-width: 1024px)
@@ -387,6 +383,9 @@ h2 {
 	{
 		display: none;
 	}
+	#leftMenu ul > li > a {
+		display: block;
+	}
 }
 @media (min-width: 641px) and (max-width: 800px)
 {
@@ -446,6 +445,9 @@ h2 {
 	{
 		display: none;
 	}
+	#leftMenu ul > li > a {
+		display: block;
+	}
 }
 @media (max-width: 640px)
 {
@@ -504,5 +506,8 @@ h2 {
 	.col-640-disabled
 	{
 		display: none;
+	}
+	#leftMenu ul > li {
+		display: inline;
 	}
 }
