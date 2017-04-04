@@ -17,21 +17,20 @@ body {
 	margin-bottom: 10px;
 }
 
-#brand {
-	float: left;
+#brand a {
 	text-decoration: none;
 }
 
 h1 {
 	margin-top: 0px;
-	margin-bottom: 10px;
+	margin-bottom: 7px;
 	color: #5D478B;
 	font-weight: bold;
 }
 
 h2 {
-	float: left;
 	margin-top: 0px;
+	margin-bottom: 7px;
 	font-size: 100%;
 	color: #8968CD;
 }
@@ -74,6 +73,15 @@ h2 {
 
 #bottomMenu, #forInstitutes {
 	clear: both;
+}
+
+#forInstitutes > div {
+	background-color: #EEEE00;
+	font-weight: bold;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	text-align: center;
 }
 
 #bottomMenu > ul > li , #forInstitutes > ul > li {
@@ -127,6 +135,7 @@ h2 {
 	padding-top: 3px;
 	padding-bottom: 3px;
 }
+
 
 /* PSEUDO CLASS SELECTORS ---------------------- */
 .Menus > ul > li > a:hover {
