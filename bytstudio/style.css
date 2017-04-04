@@ -137,7 +137,7 @@ h2 {
 }
 
 .SpecialTitle span:hover {
-	box-shadow: 0 1px 10px 1px #CCCCCC;
+	box-shadow: 0 1px 10px 1px black;
 }
 
 /* MEIDA QUERIES ------------------------------- */
