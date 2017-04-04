@@ -86,8 +86,6 @@ h2 {
 	font-weight: bold;
 }
 
-
-
 #infoHolder > div > ul {
 	list-style: none;
 	padding: 0px;
@@ -532,7 +530,7 @@ h2 {
 {
 	.fontsize-640 
 	{
-		font-size: 100%;		
+		font-size: 125%;		
 	}
 	.col-640-1
 	{
