@@ -1,3 +1,4 @@
+/* DIRECTIONS style.css*/
 * {
 	box-sizing: border-box;
 	font-family: Arial, Helvetica, serif;
@@ -10,7 +11,7 @@ body {
 
 #logoImage {
 	float: left;
-	background: url('./pictures/logo.png') no-repeat;
+	background: url('../pictures/logo.png') no-repeat;
 	width: 120px;
 	height: 102px;
 	margin-right: 10px;
@@ -230,7 +231,7 @@ footer div {
 	{
 		width: 500px;
 		height: 534px;
-		background: url('./pictures/shop.jpg') no-repeat;
+	
 	}
 	#infoHolder 
 	{
@@ -307,7 +308,7 @@ footer div {
 	{
 		width: 500px;
 		height: 534px;
-		background: url('./pictures/shop.jpg') no-repeat;
+		
 	}
 	#infoHolder 
 	{
@@ -384,7 +385,7 @@ footer div {
 	{
 		width: 500px;
 		height: 534px;
-		background: url('./pictures/shop.jpg') no-repeat;
+		
 	}
 	#infoHolder 
 	{
@@ -461,7 +462,7 @@ footer div {
 	{
 		width: 500px;
 		height: 534px;
-		background: url('./pictures/shop.jpg') no-repeat;
+		
 	}
 	#infoHolder 
 	{
@@ -534,12 +535,11 @@ footer div {
 	{
 		display: inline;
 	}
-	img 
+	#imageHolder 
 	{
-    	float: left;
-    	width: 60%;
-    	height: auto;
-    	margin-right: 3px;
+		width: 500px;
+		height: 534px;
+		
 	}
 	#infoHolder 
 	{
@@ -608,14 +608,15 @@ footer div {
 	{
 		display: inline;
 	}
+	#imageHolder 
+	{
+		width: 500px;
+		height: 534px;
+		
+	}
 	#infoHolder 
 	{
 		width: 100%;
-	}
-	img 
-	{
-    	width: 100%;
-    	height: auto;
 	}
 	.Menus
 	{
