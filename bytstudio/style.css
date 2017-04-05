@@ -37,6 +37,8 @@ h2 {
 
 .Hr {
 	clear: both;
+	color: black;
+	border-bottom: 1px;
 }
 
 #messages {
@@ -73,6 +75,10 @@ h2 {
 
 #bottomMenu, #forInstitutes {
 	clear: both;
+}
+
+#forInstitutes {
+	margin-bottom: 10px;
 }
 
 #forInstitutes > div {
@@ -116,6 +122,7 @@ h2 {
 	width: 100%;
 	margin-top: 5px;	
 }
+
 .SpecialTitle {
 	height: 205px;
 	position: relative;
@@ -136,6 +143,11 @@ h2 {
 	padding-bottom: 3px;
 }
 
+footer div {
+	text-align: center;
+	color: #5D478B;
+	font-size: 75%;
+}
 
 /* PSEUDO CLASS SELECTORS ---------------------- */
 .Menus > ul > li > a:hover {
@@ -520,15 +532,12 @@ h2 {
 	{
 		display: inline;
 	}
-	#imageHolder
-	{
-		width: 60%;
-		margin-right: 3px;
-	}
 	img 
 	{
-    	width: 100%;
+    	float: left;
+    	width: 60%;
     	height: auto;
+    	margin-right: 3px;
 	}
 	#infoHolder 
 	{
