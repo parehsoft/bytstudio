@@ -13,8 +13,8 @@ body {
 	background: url('./pictures/logo.png') no-repeat;
 	width: 120px;
 	height: 102px;
-	margin-right: 10px;
-	margin-bottom: 10px;
+	margin-right: 8px;
+	margin-bottom: 8px;
 }
 
 #brand a {
@@ -80,7 +80,7 @@ h2 {
 }
 
 #forInstitutes {
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 }
 
 #forInstitutes > div {
@@ -222,6 +222,10 @@ footer div {
 	{
 		display: none;
 	}
+	#leftMenu 
+	{
+		margin-right: 5px;
+	}
 	#leftMenu ul > li > a 
 	{
 		display: block;
@@ -231,14 +235,11 @@ footer div {
 		width: 500px;
 		height: 534px;
 		background: url('./pictures/shop.jpg') no-repeat;
+		margin-right: 5px;
 	}
 	#infoHolder 
 	{
-		width: 498px;
-	}
-	.Menus
-	{
-		margin-right: 5px;
+		width: 500px;
 	}
 }
 @media (min-width: 1281px) and (max-width: 1600px)
@@ -299,6 +300,10 @@ footer div {
 	{
 		display: none;
 	}
+	#leftMenu 
+	{
+		margin-right: 5px;
+	}
 	#leftMenu ul > li > a 
 	{
 		display: block;
@@ -308,14 +313,11 @@ footer div {
 		width: 500px;
 		height: 534px;
 		background: url('./pictures/shop.jpg') no-repeat;
+		margin-right: 5px;
 	}
 	#infoHolder 
 	{
-		width: 498px;
-	}
-	.Menus
-	{
-		margin-right: 5px;
+		width: 500px;
 	}
 }
 @media (min-width: 1025px) and (max-width: 1280px)
@@ -376,6 +378,10 @@ footer div {
 	{
 		display: none;
 	}
+	#leftMenu 
+	{
+		margin-right: 5px;
+	}
 	#leftMenu ul > li > a 
 	{
 		display: block;
@@ -385,14 +391,11 @@ footer div {
 		width: 500px;
 		height: 534px;
 		background: url('./pictures/shop.jpg') no-repeat;
+		margin-right: 5px;
 	}
 	#infoHolder 
 	{
-		width: 498px;
-	}
-	.Menus
-	{
-		margin-right: 5px;
+		width: 500px;
 	}
 }
 @media (min-width: 801px) and (max-width: 1024px)
@@ -453,6 +456,10 @@ footer div {
 	{
 		display: none;
 	}
+	#leftMenu 
+	{
+		margin-right: 5px;
+	}
 	#leftMenu ul > li > a 
 	{
 		display: block;
@@ -462,14 +469,11 @@ footer div {
 		width: 500px;
 		height: 534px;
 		background: url('./pictures/shop.jpg') no-repeat;
+		margin-right: 5px;
 	}
 	#infoHolder 
 	{
 		width: 100%;
-	}
-	.Menus
-	{
-		margin-right: 5px;
 	}
 }
 @media (min-width: 641px) and (max-width: 800px)
@@ -608,17 +612,14 @@ footer div {
 	{
 		display: inline;
 	}
-	#infoHolder 
-	{
-		width: 100%;
-	}
 	img 
 	{
     	width: 100%;
+    	max-width: 500px;
     	height: auto;
 	}
-	.Menus
+	#infoHolder 
 	{
-		margin-right: 0px;
+		width: 100%;
 	}
 }
