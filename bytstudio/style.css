@@ -126,7 +126,7 @@ h2 {
 }
 
 .SpecialTitle {
-	height: 205px;
+	height: 204px;
 	position: relative;
 	border-top: 2px solid #5D478B;
 	overflow: hidden;
@@ -380,22 +380,25 @@ footer div {
 	}
 	#leftMenu 
 	{
-		margin-right: 5px;
+		margin-right: 4px;
+		width: 20%;
+		max-width: 214px;
 	}
 	#leftMenu ul > li > a 
 	{
 		display: block;
 	}
-	#imageHolder 
+	img 
 	{
-		width: 500px;
-		height: 534px;
-		background: url('./pictures/shop.jpg') no-repeat;
-		margin-right: 5px;
+    	float: left;
+    	width: 39%;
+    	max-width: 500px;
+    	height: auto;
+    	margin-right: 4px;
 	}
 	#infoHolder 
 	{
-		width: 500px;
+		width: 40%;
 	}
 }
 @media (min-width: 801px) and (max-width: 1024px)
@@ -464,12 +467,12 @@ footer div {
 	{
 		display: block;
 	}
-	#imageHolder 
+	img 
 	{
-		width: 500px;
-		height: 534px;
-		background: url('./pictures/shop.jpg') no-repeat;
-		margin-right: 5px;
+    	float: left;
+    	width: 500px;
+    	height: auto;
+    	margin-right: 5px;
 	}
 	#infoHolder 
 	{
