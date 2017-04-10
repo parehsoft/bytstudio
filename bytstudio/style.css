@@ -43,11 +43,8 @@ h2 {
 	border-right: 0px;
 }
 
-#messages {
-	font-weight: bold;
-	color: #CD3700;
-	margin-left: auto;
-	margin-right: auto;
+#importedText {
+	width: 100%;
 }
 
 .Menus {
@@ -222,6 +219,10 @@ footer div {
 	{
 		display: none;
 	}
+	#importedText
+	{
+		height: 30px;
+	}
 	#leftMenu 
 	{
 		margin-right: 5px;
@@ -300,6 +301,10 @@ footer div {
 	{
 		display: none;
 	}
+	#importedText
+	{
+		height: 30px;
+	}
 	#leftMenu 
 	{
 		margin-right: 5px;
@@ -377,6 +382,10 @@ footer div {
 	.col-1280-disabled
 	{
 		display: none;
+	}
+	#importedText
+	{
+		height: 30px;
 	}
 	#leftMenu 
 	{
@@ -459,6 +468,10 @@ footer div {
 	{
 		display: none;
 	}
+	#importedText
+	{
+		height: 30px;
+	}
 	#leftMenu 
 	{
 		margin-right: 5px;
@@ -537,6 +550,10 @@ footer div {
 	{
 		display: none;
 	}
+	#importedText
+	{
+		height: 60px;
+	}
 	#leftMenu ul > li 
 	{
 		display: inline;
@@ -610,6 +627,10 @@ footer div {
 	.col-640-disabled
 	{
 		display: none;
+	}
+	#importedText
+	{
+		height: 90px;
 	}
 	#leftMenu ul > li 
 	{
