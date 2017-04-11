@@ -43,6 +43,11 @@ h2 {
 	border-right: 0px;
 }
 
+#notesHolder {
+	margin: 0px;
+	padding: 0px;
+}
+
 #importedText {
 	width: 100%;
 }
@@ -389,9 +394,9 @@ footer div {
 	}
 	#leftMenu 
 	{
-		margin-right: 4px;
-		width: 20%;
-		max-width: 214px;
+		margin-right: 5px;
+		/*width: 22%;
+		max-width: 215px;*/
 	}
 	#leftMenu ul > li > a 
 	{
@@ -400,14 +405,14 @@ footer div {
 	img 
 	{
     	float: left;
-    	width: 39%;
+    	width: 40%;
     	max-width: 500px;
     	height: auto;
-    	margin-right: 4px;
+    	margin-right: 5px;
 	}
 	#infoHolder 
 	{
-		width: 40%;
+		width: 37.3%;
 	}
 }
 @media (min-width: 801px) and (max-width: 1024px)
@@ -470,7 +475,7 @@ footer div {
 	}
 	#importedText
 	{
-		height: 30px;
+		height: 35px;
 	}
 	#leftMenu 
 	{
