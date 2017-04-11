@@ -56,13 +56,13 @@ h2 {
 .Menus {
 	float: left;
 	background-color: #828282;
-	margin-bottom: 5px;
+	margin-bottom: 4px;
 }
 
 .Menus > ul {
 	padding: 0px;
-	margin-top: 14px;
-	margin-bottom: 14px;
+	margin-top: 13px;
+	margin-bottom: 13px;
 	list-style: none;
 }
 
@@ -125,7 +125,7 @@ h2 {
 .boxHolder {
 	float: left;
 	width: 100%;
-	margin-top: 5px;	
+	margin-top: 4px;	
 }
 
 .SpecialTitle {
@@ -144,8 +144,8 @@ h2 {
 	background-color: #000;
 	color: #FFF;
 	opacity: 0.8;
-	padding-top: 3px;
-	padding-bottom: 3px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 footer div {
