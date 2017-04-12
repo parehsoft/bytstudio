@@ -61,8 +61,8 @@ h2 {
 
 .Menus > ul {
 	padding: 0px;
-	margin-top: 13px;
-	margin-bottom: 13px;
+	margin-top: 14px;
+	margin-bottom: 14px;
 	list-style: none;
 }
 
@@ -490,6 +490,7 @@ footer div {
     	width: 500px;
     	height: auto;
     	margin-right: 4px;
+    	margin-bottom: 4px;
 	}
 	#infoHolder 
 	{
