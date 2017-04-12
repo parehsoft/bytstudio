@@ -8,11 +8,13 @@
 body {
 	font-size: 16px;
 	background-color: #DEDEDE;
+
 }
 
 #messages {
 	font-weight: bold;
 	color: #CD3700;
+	margin-left: 8px;
 }
 
 .Important {
