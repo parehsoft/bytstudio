@@ -476,25 +476,23 @@ footer div {
 	{
 		height: 35px;
 	}
-	#leftMenu 
+	#leftMenu ul > li 
 	{
-		margin-right: 4px;
-	}
-	#leftMenu ul > li > a 
-	{
-		display: block;
+		display: inline;
 	}
 	img 
 	{
     	float: left;
-    	width: 500px;
+    	width: 51%;
+    	max-width: 500px;
     	height: auto;
     	margin-right: 4px;
     	margin-bottom: 4px;
 	}
 	#infoHolder 
 	{
-		width: 100%;
+		width: 48%;
+		float: right;
 	}
 }
 @media (min-width: 641px) and (max-width: 800px)
