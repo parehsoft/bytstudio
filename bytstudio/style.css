@@ -9,6 +9,11 @@ body {
 	margin: 4px;
 }
 
+#header {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #logoImage {
 	float: left;
 	background: url('./pictures/logo.png') no-repeat;
@@ -45,12 +50,20 @@ h2 {
 }
 
 #notesHolder {
-	margin: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0px;
 }
 
 #importedText {
 	width: 100%;
+}
+
+#mainContent {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .Menus {
@@ -328,7 +341,7 @@ footer div {
 	}
 	#infoHolder 
 	{
-		width: 500px;
+		width: 425px;
 	}
 }
 @media (min-width: 1025px) and (max-width: 1280px)
@@ -408,6 +421,7 @@ footer div {
     	max-width: 500px;
     	height: auto;
     	margin-right: 4px;
+    	margin-bottom: 4px;
 	}
 	#infoHolder 
 	{
@@ -476,25 +490,23 @@ footer div {
 	{
 		height: 35px;
 	}
-	#leftMenu 
+	#leftMenu ul > li 
 	{
-		margin-right: 4px;
-	}
-	#leftMenu ul > li > a 
-	{
-		display: block;
+		display: inline;
 	}
 	img 
 	{
     	float: left;
-    	width: 500px;
+    	width: 51%;
+    	max-width: 500px;
     	height: auto;
     	margin-right: 4px;
     	margin-bottom: 4px;
 	}
 	#infoHolder 
 	{
-		width: 100%;
+		width: 48%;
+		float: right;
 	}
 }
 @media (min-width: 641px) and (max-width: 800px)
