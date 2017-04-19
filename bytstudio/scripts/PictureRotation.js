@@ -2,7 +2,7 @@ var imageCount  = 15;
 var imageNumber = 15;
 
 function switchImage() {
-	var message = "<img src=\"./pictures/" + imageNumber + ".jpg\">";
+	var message = "<img src=\"./pictures/" + imageNumber + ".jpg\" width=\"auto\" height=\"auto\">";
 	document.getElementById("imageHolder").innerHTML = message;
 	if(imageNumber < imageCount) {
 		imageNumber += 1;
@@ -15,5 +15,5 @@ function switchImage() {
 /* setInterval calls a function within provided time range. 
    This time 9000ms is set as default.
 */
-setInterval('switchImage()', 9000);
+setInterval('switchImage()', 1000);
 
