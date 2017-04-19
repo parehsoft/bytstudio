@@ -617,6 +617,10 @@ footer div {
 }
 @media (max-width: 640px)
 {
+	*
+	{
+		clear: both;
+	}
 	.fontsize-640 
 	{
 		font-size: 125%;		
@@ -683,7 +687,6 @@ footer div {
 	}
 	#imageHolder
 	{
-		float: left;
 		width: 100%
     	max-width: 500px;
     	height: 534px;
