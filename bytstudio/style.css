@@ -123,7 +123,7 @@ h2 {
 	padding: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0px;
+	margin-top: 1px;
 	margin-bottom: 0px;
 }
 
@@ -138,7 +138,7 @@ h2 {
 .boxHolder {
 	float: left;
 	width: 100%;
-	margin-top: 4px;	
+	margin-top: 5px;	
 }
 
 .SpecialTitle {
@@ -244,18 +244,24 @@ footer div {
 	}
 	#leftMenu 
 	{
-		margin-right: 5px;
+		margin-right: 4px;
+		height: 534px;
 	}
 	#leftMenu ul > li > a 
 	{
 		display: block;
 	}
-	#imageHolder 
+	#imageHolder
 	{
+		float: left;
 		width: 500px;
-		height: 534px;
-		background: url('./pictures/shop.jpg') no-repeat;
-		margin-right: 5px;
+    	margin-right: 4px;
+	}
+	img 
+	{
+    	width: auto;
+    	max-width: 100%;
+    	max-height: 534px;
 	}
 	#infoHolder 
 	{
@@ -326,18 +332,24 @@ footer div {
 	}
 	#leftMenu 
 	{
-		margin-right: 5px;
+		margin-right: 4px;
+		height: 534px;
 	}
 	#leftMenu ul > li > a 
 	{
 		display: block;
 	}
-	#imageHolder 
+	#imageHolder
 	{
+		float: left;
 		width: 500px;
-		height: 534px;
-		background: url('./pictures/shop.jpg') no-repeat;
-		margin-right: 5px;
+    	margin-right: 4px;
+	}
+	img 
+	{
+    	width: auto;
+    	max-width: 100%;
+    	max-height: 534px;
 	}
 	#infoHolder 
 	{
@@ -409,19 +421,24 @@ footer div {
 	#leftMenu 
 	{
 		margin-right: 4px;
+		height: 534px;
 	}
 	#leftMenu ul > li > a 
 	{
 		display: block;
 	}
+	#imageHolder
+	{
+		float: left;
+		width: 40%;
+    	max-width: 500px;
+    	margin-right: 4px;
+	}
 	img 
 	{
-    	float: left;
-    	width: 40%;
-    	max-width: 500px;
-    	height: auto;
-    	margin-right: 4px;
-    	margin-bottom: 4px;
+    	width: auto;
+    	max-width: 100%;
+    	max-height: 534px;
 	}
 	#infoHolder 
 	{
@@ -494,14 +511,18 @@ footer div {
 	{
 		display: inline;
 	}
+	#imageHolder
+	{
+		float: left;
+		width: 51%;
+    	max-width: 500px;
+    	margin-right: 4px;
+	}
 	img 
 	{
-    	float: left;
-    	width: 51%;
-    	max-width: 500px;
-    	height: auto;
-    	margin-right: 4px;
-    	margin-bottom: 4px;
+    	width: auto;
+    	max-width: 100%;
+    	max-height: 534px;
 	}
 	#infoHolder 
 	{
@@ -575,12 +596,18 @@ footer div {
 	{
 		display: inline;
 	}
+	#imageHolder
+	{
+		float: left;
+		width: 60%;
+    	max-width: 500px;
+    	margin-right: 3px;
+	}
 	img 
 	{
-    	float: left;
-    	width: 60%;
-    	height: auto;
-    	margin-right: 3px;
+    	width: auto;
+    	max-width: 100%;
+    	max-height: 534px;
 	}
 	#infoHolder 
 	{
@@ -654,11 +681,19 @@ footer div {
 	{
 		display: inline;
 	}
+	#imageHolder
+	{
+		float: left;
+		width: 100%
+    	max-width: 500px;
+    	height: 534px;
+    	margin-bottom: 4px;
+	}
 	img 
 	{
-    	width: 100%;
-    	max-width: 500px;
-    	height: auto;
+    	width: auto;
+    	max-width: 100%;
+    	max-height: 534px;
 	}
 	#infoHolder 
 	{
