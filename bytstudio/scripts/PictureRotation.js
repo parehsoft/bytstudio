@@ -15,5 +15,5 @@ function switchImage() {
 /* setInterval calls a function within provided time range. 
    This time 9000ms is set as default.
 */
-setInterval('switchImage()', 2000);
+setInterval('switchImage()', 9000);
 
