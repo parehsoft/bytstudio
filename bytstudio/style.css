@@ -207,7 +207,8 @@ footer div {
 	color: black;
 	background-color: #DEDEDE;
 	text-decoration: underline;
-	text-decoration-color: #5D478B;
+	text-decoration-color: black;
+	box-shadow: 0 1px 5px 1px #5D478B;
 }
 
 .SpecialTitle > span:hover, .SpecialTitle > span:active {
