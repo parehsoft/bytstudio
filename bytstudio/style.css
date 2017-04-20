@@ -57,11 +57,11 @@ h2 {
 }
 
 #hr1 {
-	margin-bottom: 2px;
+	margin-bottom: 0px;
 }
 
 #hr2 {
-	margin-top: 2px;
+	margin-top: 0px;
 }
 
 #notesHolder {
@@ -195,7 +195,7 @@ footer div {
 #zoomedLogo {
 	width: auto;
     max-width: 100%;
-    max-height: 2000px;
+    max-height: 1000px;
 }
 
 /* PSEUDO CLASS SELECTORS ---------------------- */
@@ -206,7 +206,7 @@ footer div {
 	text-decoration-color: #5D478B;
 }
 
-.SpecialTitle span:hover {
+.SpecialTitle > span:hover {
 	box-shadow: 0 1px 10px 1px black;
 }
 
