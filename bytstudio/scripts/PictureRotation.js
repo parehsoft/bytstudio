@@ -20,7 +20,7 @@ setInterval('switchImage()', 9000);
 
 /*** LOGO MOUSEOVER ZOOM --------------------------------------------------------------------------------------------- */
 function zoomLogoIn() {
-	var message = "<img id=\"zoomedLogo\" src=\"./pictures/bytstudio-big.jpg\" width=\"100%\">";
+	var message = "<img id=\"zoomedLogo\" src=\"./pictures/bytstudio-big.jpg\">";
 	var element = document.getElementById("forZoomedLogo");
 	element.innerHTML = message;
 }
