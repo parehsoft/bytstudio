@@ -1,6 +1,6 @@
 /*** PICTURE ROTATION ------------------------------------------------------------------------------------------------ */
 var imageCount  = 15;
-var imageNumber = 15;
+var imageNumber = 1;
 
 function switchImage() {
 	var message = "<img src=\"./pictures/" + imageNumber + ".jpg\" width=\"auto\" height=\"auto\">";
