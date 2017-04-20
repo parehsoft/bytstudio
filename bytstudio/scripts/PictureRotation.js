@@ -1,3 +1,4 @@
+/*** PICTURE ROTATION ------------------------------------------------------------------------------------------------ */
 var imageCount  = 15;
 var imageNumber = 15;
 
@@ -17,3 +18,15 @@ function switchImage() {
 */
 setInterval('switchImage()', 9000);
 
+/*** LOGO MOUSEOVER ZOOM --------------------------------------------------------------------------------------------- */
+function zoomLogoIn() {
+	var message = "<img id=\"zoomedLogo\" src=\"./pictures/bytstudio-big.jpg\" width=\"100%\">";
+	var element = document.getElementById("forZoomedLogo");
+	element.innerHTML = message;
+}
+
+function zoomLogoOut() {
+	var element = document.getElementById("zoomedLogo");
+	element.remove();
+
+}
