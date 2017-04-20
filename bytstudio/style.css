@@ -16,11 +16,15 @@ body {
 
 #logoImage {
 	float: left;
-	background: url('./pictures/logo.png') no-repeat;
+	background: url('./pictures/logo.jpg') no-repeat;
 	width: 120px;
 	height: 102px;
 	margin-right: 8px;
 	margin-bottom: 8px;
+}
+
+#brand {
+	float: left;
 }
 
 #brand a {
