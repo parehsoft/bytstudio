@@ -17,16 +17,3 @@ function switchImage() {
    This time 9000ms is set as default.
 */
 setInterval('switchImage()', 9000);
-
-/*** LOGO MOUSEOVER ZOOM --------------------------------------------------------------------------------------------- */
-function zoomLogoIn() {
-	var message = "<img id=\"zoomedLogo\" src=\"./pictures/bytstudio-1600.jpg\">";
-	var element = document.getElementById("forZoomedLogo");
-	element.innerHTML = message;
-}
-
-function zoomLogoOut() {
-	var element = document.getElementById("zoomedLogo");
-	element.remove();
-
-}
