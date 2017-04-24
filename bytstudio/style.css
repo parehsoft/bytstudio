@@ -8,9 +8,6 @@ body {
 	background-color: #DEDEDE;
 	margin: 4px;
 }
-#brand {
-	padding-top: 6px;
-}
 
 #header {
 	margin-left: auto;
@@ -20,10 +17,14 @@ body {
 #logoImage {
 	float: left;
 	background: url('./pictures/logo.jpg') no-repeat;
-	width: 200px;
-	height: 120px;
+	width: 120px;
+	height: 98px;
 	margin-right: 8px;
 	margin-bottom: 8px;
+}
+
+#brand {
+	float: left;
 }
 
 #brand a {
@@ -44,16 +45,51 @@ h2 {
 	color: #8968CD;
 }
 
-#openingHoursInHeader {
-	float: right;
-}
-
 .Hr {
 	clear: both;
 	border-color: black;
 	border-bottom: 1px;
 	border-left: 0px;
 	border-right: 0px;
+}
+
+#openingHours {
+	float: left;
+	background-color: #828282;
+	font-size: 90%;
+	margin: 4px;
+}
+
+#openingHours > div {
+	background-color: #EEEE00;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-align: center; 
+}
+
+#openingHours > ul {
+	list-style: none;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	padding-right: 0px; 
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+#openingHours > ul > li {
+	color: #DEDEDE;
+}
+
+#openingHours > ul > li > span {
+	float: right;
 }
 
 #hr1 {
@@ -127,10 +163,8 @@ h2 {
 	display: inline;
 }
 
-#openingHours {
-	text-align: center;
-	color: #FFFFFD;
-	font-weight: bold;
+#infoHolder {
+	background-color: #DEDEDE;
 }
 
 #infoHolder > div > ul {
@@ -153,11 +187,11 @@ h2 {
 .boxHolder {
 	float: left;
 	width: 100%;
-	margin-top: 5px;	
+	margin-top: 4px;	
 }
 
 .SpecialTitle {
-	height: 204px;
+	height: 170px;
 	position: relative;
 	border-top: 2px solid #5D478B;
 	overflow: hidden;
