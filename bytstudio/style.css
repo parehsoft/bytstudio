@@ -57,7 +57,10 @@ h2 {
 	float: left;
 	background-color: #828282;
 	font-size: 90%;
-	margin: 4px;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	margin-left: 36px;
+	margin-right: 4px;
 }
 
 #openingHours > div {
@@ -81,7 +84,7 @@ h2 {
 	margin-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 90%;
+	width: 95%;
 }
 
 #openingHours > ul > li {
@@ -232,6 +235,15 @@ footer div {
     max-height: 1000px;
 }
 
+#displayImageFromInfoHolder {
+	position: absolute;
+	visibility: hidden;
+}
+
+#displayImageFromInfoHolder > img {
+	width: 100%;
+}
+
 /* PSEUDO CLASS SELECTORS ---------------------- */
 #logoImage:hover, #logoImage:active {
 	box-shadow: 0 1px 5px 1px #5D478B;
@@ -242,6 +254,9 @@ footer div {
 	background-color: #DEDEDE;
 	text-decoration: underline;
 	text-decoration-color: black;
+	box-shadow: 0 1px 5px 1px #5D478B;
+}
+#infoHolderImageWrapper > a > img:hover, #infoHolderImageWrapper > a > img:active {
 	box-shadow: 0 1px 5px 1px #5D478B;
 }
 
@@ -327,7 +342,7 @@ footer div {
 		width: 500px;
     	margin-right: 4px;
 	}
-	img 
+	#imageHolder > img 
 	{
     	width: auto;
     	max-width: 100%;
@@ -337,12 +352,19 @@ footer div {
 	{
 		width: 500px;
 	}
+	#infoHolderImageWrapper 
+	{
+		width: 306px;
+		height: 186px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 @media (min-width: 1281px) and (max-width: 1600px)
 {
 	.fontsize-1600 
 	{
-		font-size: 225%;		
+		font-size: 200%;		
 	}
 	.col-1600-1
 	{
@@ -415,7 +437,7 @@ footer div {
 		width: 500px;
     	margin-right: 4px;
 	}
-	img 
+	#imageHolder > img 
 	{
     	width: auto;
     	max-width: 100%;
@@ -425,12 +447,19 @@ footer div {
 	{
 		width: 425px;
 	}
+	#infoHolderImageWrapper 
+	{
+		width: 306px;
+		height: 186px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 @media (min-width: 1025px) and (max-width: 1280px)
 { 
 	.fontsize-1280 
 	{
-		font-size: 225%;		
+		font-size: 200%;		
 	}
 	.col-1280-1
 	{
@@ -504,7 +533,7 @@ footer div {
     	max-width: 500px;
     	margin-right: 4px;
 	}
-	img 
+	#imageHolder > img 
 	{
     	width: auto;
     	max-width: 100%;
@@ -513,6 +542,13 @@ footer div {
 	#infoHolder 
 	{
 		width: 37.1%;
+	}
+	#infoHolderImageWrapper 
+	{
+		width: 306px;
+		height: 186px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 @media (min-width: 801px) and (max-width: 1024px)
@@ -588,7 +624,7 @@ footer div {
     	max-width: 500px;
     	margin-right: 4px;
 	}
-	img 
+	#imageHolder > img 
 	{
     	width: auto;
     	max-width: 100%;
@@ -598,6 +634,13 @@ footer div {
 	{
 		width: 48%;
 		float: right;
+	}
+	#infoHolderImageWrapper 
+	{
+		width: 306px;
+		height: 186px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 @media (min-width: 641px) and (max-width: 800px)
@@ -673,7 +716,7 @@ footer div {
     	max-width: 500px;
     	margin-right: 3px;
 	}
-	img 
+	#imageHolder > img 
 	{
     	width: auto;
     	max-width: 100%;
@@ -683,6 +726,17 @@ footer div {
 	{
 		width: 39.5%;
 		float: right;
+	}
+	#infoHolderImageWrapper 
+	{
+		width: 100%;
+		height: 186px;
+	}
+	#infoHolderImageWrapper > a > img
+	{
+		width: auto;
+    	max-width: 100%;
+    	max-height: 185px;
 	}
 }
 @media (max-width: 640px)
@@ -762,7 +816,7 @@ footer div {
     	height: 400px;
     	margin-bottom: 4px;
 	}
-	img 
+	#imageHolder > img 
 	{
     	max-width: 100%;
     	max-height: 400px;
@@ -770,5 +824,12 @@ footer div {
 	#infoHolder 
 	{
 		width: 100%;
+	}
+	#infoHolderImageWrapper 
+	{
+		width: 306px;
+		height: 186px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
