@@ -194,7 +194,7 @@ h2 {
 }
 
 .SpecialTitle {
-	height: 170px;
+	height: 200px;
 	position: relative;
 	border-top: 2px solid #5D478B;
 	overflow: hidden;
@@ -338,6 +338,7 @@ footer div {
 	}
 	#imageHolder
 	{
+		position: relative;
 		float: left;
 		width: 500px;
     	margin-right: 4px;
@@ -354,8 +355,8 @@ footer div {
 	}
 	#infoHolderImageWrapper 
 	{
-		width: 306px;
-		height: 186px;
+		width: 208px;
+		height: 126px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -433,11 +434,12 @@ footer div {
 	}
 	#imageHolder
 	{
+		position: relative;
 		float: left;
 		width: 500px;
     	margin-right: 4px;
 	}
-	#imageHolder > img 
+	#forPictureRotation > img 
 	{
     	width: auto;
     	max-width: 100%;
@@ -449,8 +451,8 @@ footer div {
 	}
 	#infoHolderImageWrapper 
 	{
-		width: 306px;
-		height: 186px;
+		width: 208px;
+		height: 126px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -528,12 +530,13 @@ footer div {
 	}
 	#imageHolder
 	{
+		position: relative;
 		float: left;
 		width: 40%;
     	max-width: 500px;
     	margin-right: 4px;
 	}
-	#imageHolder > img 
+	#forPictureRotation > img 
 	{
     	width: auto;
     	max-width: 100%;
@@ -545,8 +548,8 @@ footer div {
 	}
 	#infoHolderImageWrapper 
 	{
-		width: 306px;
-		height: 186px;
+		width: 208px;
+		height: 126px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -619,12 +622,13 @@ footer div {
 	}
 	#imageHolder
 	{
+		position: relative;
 		float: left;
 		width: 51%;
     	max-width: 500px;
     	margin-right: 4px;
 	}
-	#imageHolder > img 
+	#forPictureRotation > img, #displayImageFromInfoHolder > img 
 	{
     	width: auto;
     	max-width: 100%;
@@ -637,8 +641,8 @@ footer div {
 	}
 	#infoHolderImageWrapper 
 	{
-		width: 306px;
-		height: 186px;
+		width: 208px;
+		height: 126px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -711,12 +715,13 @@ footer div {
 	}
 	#imageHolder
 	{
+		position: relative;
 		float: left;
 		width: 60%;
     	max-width: 500px;
     	margin-right: 3px;
 	}
-	#imageHolder > img 
+	#forPictureRotation > img 
 	{
     	width: auto;
     	max-width: 100%;
@@ -729,14 +734,10 @@ footer div {
 	}
 	#infoHolderImageWrapper 
 	{
-		width: 100%;
-		height: 186px;
-	}
-	#infoHolderImageWrapper > a > img
-	{
-		width: auto;
-    	max-width: 100%;
-    	max-height: 185px;
+		width: 208px;
+		height: 126px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 @media (max-width: 640px)
@@ -811,12 +812,13 @@ footer div {
 	}
 	#imageHolder
 	{
+		position: relative;
 		width: 100%
     	max-width: 500px;
     	height: 400px;
     	margin-bottom: 4px;
 	}
-	#imageHolder > img 
+	#forPictureRotation > img 
 	{
     	max-width: 100%;
     	max-height: 400px;
@@ -827,8 +829,8 @@ footer div {
 	}
 	#infoHolderImageWrapper 
 	{
-		width: 306px;
-		height: 186px;
+		width: 208px;
+		height: 126px;
 		margin-left: auto;
 		margin-right: auto;
 	}

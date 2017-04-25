@@ -37,11 +37,6 @@
 		<embed id="importedText" src="./message/MessageToImport.html" width="auto" height="auto"></embed>
 	</div>
 <hr id="hr2" class="Hr">
-	<!-- Javascript manipulated HTML and CSS -->
-		<div id="displayImageFromInfoHolder">
-			<img src="./pictures/bytstudio.jpg" width="auto" height="auto">
-		</div>
-	<!-- end of Javascript manipulated HTML and CSS -->
 	<div id="mainContent" class="col-1600-11 col-1920-10">
 		<div id="forZoomedLogo" class="col-640-12 col-800-12 col-1024-12 col-1280-11 col-1600-10 col-1920-9">
 			<!-- Javascript inserted HTML -->
@@ -66,13 +61,20 @@
 			</ul>
 		</div>
 		<div id="imageHolder">
-			<!-- Javascipted picture rotation -->
-			<img src="./pictures/bytstudio.jpg" width="auto" height="auto">
+			<!-- Javascript manipulated HTML and CSS -->
+			<div id="displayImageFromInfoHolder">
+				<img src="./pictures/bytstudio.jpg" width="auto" height="auto">
+			</div>
+			<!-- end of Javascript manipulated HTML and CSS -->
+			<div id="forPictureRotation">
+				<!-- Javascipted picture rotation -->
+				<img src="./pictures/bytstudio.jpg" width="auto" height="auto">
+			</div>
 		</div>
 		<div id="infoHolder" class="Menus">
-			<div id="infoHolderImageWrapper">
+			<div id="infoHolderImageWrapper" onmouseover="zoomBytstudioIn()" onmouseout="zoomBytstudioOut()">
 				<a href="">
-					<img src="./pictures/bytstudio-185y.jpg" width="auto" height="auto">
+					<img src="./pictures/bytstudio-126y.jpg" width="auto" height="auto">
 				</a>
 			</div>
 			<div class="boxHolder">
@@ -127,5 +129,6 @@
 </footer>
 <script type="text/javascript" src="scripts/PictureRotation.js"></script>
 <script type="text/javascript" src="scripts/LogoMouseoverZoom.js"></script>
+<script type="text/javascript" src="scripts/notesHolderPicturesMouseoverZoom.js"></script>
 </body>
 </html> 

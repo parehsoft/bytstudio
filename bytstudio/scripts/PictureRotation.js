@@ -4,7 +4,7 @@ var imageNumber = 1;
 
 function switchImage() {
 	var message = "<img src=\"./pictures/" + imageNumber + ".jpg\" width=\"auto\" height=\"auto\">";
-	document.getElementById("imageHolder").innerHTML = message;
+	document.getElementById("forPictureRotation").innerHTML = message;
 	if(imageNumber < imageCount) {
 		imageNumber += 1;
 	}
