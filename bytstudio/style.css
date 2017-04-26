@@ -56,10 +56,10 @@ h2 {
 #openingHours {
 	float: left;
 	background-color: #828282;
-	font-size: 90%;
+	font-size: 85%;
 	margin-top: 0px;
 	margin-bottom: 4px;
-	margin-left: 36px;
+	margin-left: 30px;
 	margin-right: 4px;
 }
 
@@ -267,9 +267,9 @@ footer div {
 /* MEIDA QUERIES ------------------------------- */
 @media (min-width: 1601px)
 {
-	.fontsize-1920 
+	h1 
 	{
-		font-size: 225%;		
+		font-size: 200%;		
 	}
 	.col-1920-1
 	{
@@ -351,7 +351,7 @@ footer div {
 	}
 	#infoHolder 
 	{
-		width: 500px;
+		width: 466px;
 	}
 	#infoHolderImageWrapper 
 	{
@@ -363,7 +363,7 @@ footer div {
 }
 @media (min-width: 1281px) and (max-width: 1600px)
 {
-	.fontsize-1600 
+	h1 
 	{
 		font-size: 200%;		
 	}
@@ -447,7 +447,7 @@ footer div {
 	}
 	#infoHolder 
 	{
-		width: 425px;
+		width: 466px;
 	}
 	#infoHolderImageWrapper 
 	{
@@ -459,7 +459,7 @@ footer div {
 }
 @media (min-width: 1025px) and (max-width: 1280px)
 { 
-	.fontsize-1280 
+	h1
 	{
 		font-size: 200%;		
 	}
@@ -544,7 +544,7 @@ footer div {
 	}
 	#infoHolder 
 	{
-		width: 37.1%;
+		width: 36.6%;
 	}
 	#infoHolderImageWrapper 
 	{
@@ -553,10 +553,14 @@ footer div {
 		margin-left: auto;
 		margin-right: auto;
 	}
+	#forInstitutes {
+		width: 98%;
+		max-width: 1188px;
+	}
 }
 @media (min-width: 801px) and (max-width: 1024px)
 {
-	.fontsize-1024 
+	h1
 	{
 		font-size: 150%;		
 	}
@@ -612,6 +616,10 @@ footer div {
 	{
 		display: none;
 	}
+	#openingHours 
+	{
+		margin-left: 8px;
+	}
 	#importedText
 	{
 		height: 35px;
@@ -649,7 +657,7 @@ footer div {
 }
 @media (min-width: 641px) and (max-width: 800px)
 {
-	.fontsize-800 
+	h1 
 	{
 		font-size: 150%;		
 	}
@@ -705,6 +713,18 @@ footer div {
 	{
 		display: none;
 	}
+	#openingHours 
+	{
+		clear: both;
+		margin-left: 0px;
+		margin-bottom: 8px;
+	}
+	#openingHours > ul 
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 30%;
+	}
 	#importedText
 	{
 		height: 55px;
@@ -746,7 +766,7 @@ footer div {
 	{
 		clear: both;
 	}
-	.fontsize-640 
+	h1
 	{
 		font-size: 150%;		
 	}
@@ -802,6 +822,18 @@ footer div {
 	{
 		display: none;
 	}
+	#openingHours 
+	{
+		clear: both;
+		margin-left: 0px;
+		margin-bottom: 8px;
+	}
+	#openingHours > ul 
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
 	#importedText
 	{
 		height: 60px;
@@ -817,6 +849,10 @@ footer div {
     	max-width: 500px;
     	height: 400px;
     	margin-bottom: 4px;
+	}
+	#displayImageFromInfoHolder
+	{
+		width: 100%;
 	}
 	#forPictureRotation > img 
 	{
