@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	font-family: Arial, Helvetica, serif;
+	font-family: "Arial", Helvetica, serif;
 } 
 
 body {
@@ -21,6 +21,7 @@ body {
 	height: 98px;
 	margin-right: 8px;
 	margin-bottom: 8px;
+	transition: 0.1s;
 }
 
 #brand {
@@ -56,7 +57,7 @@ h2 {
 #openingHours {
 	float: left;
 	background-color: #828282;
-	font-size: 85%;
+	font-size: 81.25%;
 	margin-top: 0px;
 	margin-bottom: 4px;
 	margin-left: 30px;
@@ -170,21 +171,17 @@ h2 {
 	background-color: #DEDEDE;
 }
 
-#infoHolder > div > ul {
-	list-style: none;
-	padding: 0px;
+#infoHolderImageWrapper 
+{
+	width: 208px;
+	height: 126px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 1px;
-	margin-bottom: 0px;
 }
 
-#infoHolder > div > ul > li {
-	color: #FFFFFD;
-}
-
-#infoHolder > div > ul > li > span {
-	float: right;
+#infoHolderImageWrapper img
+{
+	transition: 0.1s;
 }
 
 .boxHolder {
@@ -211,6 +208,7 @@ h2 {
 	opacity: 0.75;
 	padding-top: 2px;
 	padding-bottom: 2px;
+	transition: 0.1s;
 }
 .SpecialTitle > span > span {
 	color: #8968CD;
@@ -254,8 +252,10 @@ footer div {
 	background-color: #DEDEDE;
 	text-decoration: underline;
 	text-decoration-color: black;
+	border-radius: 3px;
 	box-shadow: 0 1px 5px 1px #5D478B;
 }
+
 #infoHolderImageWrapper > a > img:hover, #infoHolderImageWrapper > a > img:active {
 	box-shadow: 0 1px 5px 1px #5D478B;
 }
@@ -353,13 +353,6 @@ footer div {
 	{
 		width: 466px;
 	}
-	#infoHolderImageWrapper 
-	{
-		width: 208px;
-		height: 126px;
-		margin-left: auto;
-		margin-right: auto;
-	}
 }
 @media (min-width: 1281px) and (max-width: 1600px)
 {
@@ -448,13 +441,6 @@ footer div {
 	#infoHolder 
 	{
 		width: 466px;
-	}
-	#infoHolderImageWrapper 
-	{
-		width: 208px;
-		height: 126px;
-		margin-left: auto;
-		margin-right: auto;
 	}
 }
 @media (min-width: 1025px) and (max-width: 1280px)
@@ -546,15 +532,8 @@ footer div {
 	{
 		width: 36.6%;
 	}
-	#infoHolderImageWrapper 
-	{
-		width: 208px;
-		height: 126px;
-		margin-left: auto;
-		margin-right: auto;
-	}
 	#forInstitutes {
-		width: 98%;
+		width: 99%;
 		max-width: 1188px;
 	}
 }
@@ -646,13 +625,6 @@ footer div {
 	{
 		width: 48%;
 		float: right;
-	}
-	#infoHolderImageWrapper 
-	{
-		width: 208px;
-		height: 126px;
-		margin-left: auto;
-		margin-right: auto;
 	}
 }
 @media (min-width: 641px) and (max-width: 800px)
@@ -751,13 +723,6 @@ footer div {
 	{
 		width: 39.5%;
 		float: right;
-	}
-	#infoHolderImageWrapper 
-	{
-		width: 208px;
-		height: 126px;
-		margin-left: auto;
-		margin-right: auto;
 	}
 }
 @media (max-width: 640px)
@@ -862,12 +827,5 @@ footer div {
 	#infoHolder 
 	{
 		width: 100%;
-	}
-	#infoHolderImageWrapper 
-	{
-		width: 208px;
-		height: 126px;
-		margin-left: auto;
-		margin-right: auto;
 	}
 }
