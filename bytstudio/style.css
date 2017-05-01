@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	font-family: "Arial", Helvetica, serif;
+	font-family: Arial, Helvetica, serif;
 } 
 
 body {
@@ -42,40 +42,30 @@ h1 {
 h2 {
 	margin-top: 0px;
 	margin-bottom: 6px;
-	font-size: 100%;
+	font-size: 1em;
 	color: #8968CD;
 }
 
-.Hr {
-	clear: both;
-	border-color: black;
-	border-bottom: 1px;
-	border-left: 0px;
-	border-right: 0px;
-}
-
-#openingHours {
+.OpeningHours {
 	float: left;
 	background-color: #828282;
-	font-size: 81.25%;
+	font-size: 0.8125em;
 	margin-top: 0px;
 	margin-bottom: 4px;
-	margin-left: 30px;
-	margin-right: 4px;
+	margin-left: 36px;
+	width: 466px;
 }
 
-#openingHours > div {
+.OpeningHours > div {
 	background-color: #EEEE00;
 	font-weight: bold;
-	margin-top: 2px;
-	margin-left: 2px;
-	margin-right: 2px;
-	padding-left: 2px;
-	padding-right: 2px;
+	margin-top: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
 	text-align: center; 
 }
 
-#openingHours > ul {
+.OpeningHours > ul {
 	list-style: none;
 	padding-top: 0px;
 	padding-bottom: 2px;
@@ -85,15 +75,22 @@ h2 {
 	margin-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 95%;
 }
 
-#openingHours > ul > li {
+.OpeningHours > ul > li {
 	color: #DEDEDE;
 }
 
-#openingHours > ul > li > span {
+.OpeningHours > ul > li > span {
 	float: right;
+}
+
+.Hr {
+	clear: both;
+	border-color: black;
+	border-bottom: 1px;
+	border-left: 0px;
+	border-right: 0px;
 }
 
 #hr1 {
@@ -135,7 +132,7 @@ h2 {
 }
 
 .Menus > ul > li {
-	font-size: 125%;
+	font-size: 1.25em;
 	margin: 5px;
 }
 
@@ -144,6 +141,7 @@ h2 {
 	text-decoration: none;
 	font-weight: bold;
 	padding: 2px;
+	border-radius: 3px;
 }
 
 #bottomMenu, #forInstitutes {
@@ -168,7 +166,8 @@ h2 {
 }
 
 #infoHolder {
-	background-color: #DEDEDE;
+	float: left;
+	margin-bottom: 4px;
 }
 
 #infoHolderImageWrapper 
@@ -206,9 +205,9 @@ h2 {
 	background-color: #000;
 	color: #FFF;
 	opacity: 0.75;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	transition: 0.1s;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	transition: 0.2s;
 }
 .SpecialTitle > span > span {
 	color: #8968CD;
@@ -218,7 +217,7 @@ h2 {
 footer div {
 	text-align: center;
 	color: #5D478B;
-	font-size: 75%;
+	font-size: 0.75em;
 }
 /* Fot javascripted HTML ----------------------- */
 #forZoomedLogo {
@@ -230,7 +229,6 @@ footer div {
 #zoomedLogo {
 	width: auto;
     max-width: 100%;
-    max-height: 1000px;
 }
 
 #displayImageFromInfoHolder {
@@ -252,7 +250,6 @@ footer div {
 	background-color: #DEDEDE;
 	text-decoration: underline;
 	text-decoration-color: black;
-	border-radius: 3px;
 	box-shadow: 0 1px 5px 1px #5D478B;
 }
 
@@ -269,7 +266,7 @@ footer div {
 {
 	h1 
 	{
-		font-size: 200%;		
+		font-size: 2em;		
 	}
 	.col-1920-1
 	{
@@ -330,6 +327,7 @@ footer div {
 	#leftMenu 
 	{
 		margin-right: 4px;
+		width: 214px;
 		height: 534px;
 	}
 	#leftMenu ul > li > a 
@@ -343,7 +341,7 @@ footer div {
 		width: 500px;
     	margin-right: 4px;
 	}
-	#imageHolder > img 
+	#forPictureRotation > img 
 	{
     	width: auto;
     	max-width: 100%;
@@ -358,7 +356,7 @@ footer div {
 {
 	h1 
 	{
-		font-size: 200%;		
+		font-size: 2em;		
 	}
 	.col-1600-1
 	{
@@ -419,6 +417,7 @@ footer div {
 	#leftMenu 
 	{
 		margin-right: 4px;
+		width: 214px;
 		height: 534px;
 	}
 	#leftMenu ul > li > a 
@@ -447,7 +446,7 @@ footer div {
 { 
 	h1
 	{
-		font-size: 200%;		
+		font-size: 2em;		
 	}
 	.col-1280-1
 	{
@@ -501,6 +500,10 @@ footer div {
 	{
 		display: none;
 	}
+	.OpeningHours
+	{
+		margin-left: 28px;
+	}
 	#importedText
 	{
 		height: 30px;
@@ -508,6 +511,7 @@ footer div {
 	#leftMenu 
 	{
 		margin-right: 4px;
+		width: 214px;
 		height: 534px;
 	}
 	#leftMenu ul > li > a 
@@ -541,7 +545,7 @@ footer div {
 {
 	h1
 	{
-		font-size: 150%;		
+		font-size: 1.5em;		
 	}
 	.col-1024-1
 	{
@@ -595,9 +599,13 @@ footer div {
 	{
 		display: none;
 	}
-	#openingHours 
+	.col-1024-float-right
 	{
-		margin-left: 8px;
+		float: right;
+	}
+	.OpeningHours 
+	{
+		margin-left: 0px;
 	}
 	#importedText
 	{
@@ -615,7 +623,7 @@ footer div {
     	max-width: 500px;
     	margin-right: 4px;
 	}
-	#forPictureRotation > img, #displayImageFromInfoHolder > img 
+	#forPictureRotation > img 
 	{
     	width: auto;
     	max-width: 100%;
@@ -631,7 +639,7 @@ footer div {
 {
 	h1 
 	{
-		font-size: 150%;		
+		font-size: 1.5em;	
 	}
 	.col-800-1
 	{
@@ -685,17 +693,11 @@ footer div {
 	{
 		display: none;
 	}
-	#openingHours 
+	.OpeningHours 
 	{
 		clear: both;
 		margin-left: 0px;
 		margin-bottom: 8px;
-	}
-	#openingHours > ul 
-	{
-		margin-left: auto;
-		margin-right: auto;
-		width: 30%;
 	}
 	#importedText
 	{
@@ -733,7 +735,16 @@ footer div {
 	}
 	h1
 	{
-		font-size: 150%;		
+		font-size: 1.5em;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;			
+	}
+	h2
+	{
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.col-640-1
 	{
@@ -787,17 +798,15 @@ footer div {
 	{
 		display: none;
 	}
-	#openingHours 
+	#brand 
+	{
+		float: none;
+	}
+	.OpeningHours 
 	{
 		clear: both;
 		margin-left: 0px;
 		margin-bottom: 8px;
-	}
-	#openingHours > ul 
-	{
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
 	}
 	#importedText
 	{
@@ -826,6 +835,7 @@ footer div {
 	}
 	#infoHolder 
 	{
+		float: none;
 		width: 100%;
 	}
 }
