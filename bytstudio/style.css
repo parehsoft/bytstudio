@@ -141,6 +141,7 @@ h2 {
 	text-decoration: none;
 	font-weight: bold;
 	padding: 2px;
+	transition: 1s;
 	border-radius: 3px;
 }
 
@@ -835,7 +836,6 @@ footer div {
 	}
 	#infoHolder 
 	{
-		float: none;
 		width: 100%;
 	}
 }
