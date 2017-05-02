@@ -141,7 +141,8 @@ h2 {
 	text-decoration: none;
 	font-weight: bold;
 	padding: 2px;
-	transition: 1s;
+	margin-left: -2px;
+	margin-right: -2px;
 	border-radius: 3px;
 }
 
@@ -252,6 +253,7 @@ footer div {
 	text-decoration: underline;
 	text-decoration-color: black;
 	box-shadow: 0 1px 5px 1px #5D478B;
+
 }
 
 #infoHolderImageWrapper > a > img:hover, #infoHolderImageWrapper > a > img:active {
