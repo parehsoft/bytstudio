@@ -3,12 +3,12 @@
 	font-family: Arial, Helvetica, serif;
 	margin: 0px;
 	padding: 0px;
+	border: 0px;
 } 
 
 body {
 	font-size: 16px;
 	background-color: #DEDEDE;
-
 }
 
 #messages {
@@ -18,6 +18,6 @@ body {
 
 .Important {
 	font-weight: bold;
-	font-size: 150%;
+	font-size: 1.5em;
 	color: red;
 }

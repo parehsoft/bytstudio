@@ -253,7 +253,6 @@ footer div {
 	text-decoration: underline;
 	text-decoration-color: black;
 	box-shadow: 0 1px 5px 1px #5D478B;
-
 }
 
 #infoHolderImageWrapper > a > img:hover, #infoHolderImageWrapper > a > img:active {
@@ -354,6 +353,10 @@ footer div {
 	{
 		width: 466px;
 	}
+	#forInstitutes
+	{
+		width: 1188px;
+	}
 }
 @media (min-width: 1281px) and (max-width: 1600px)
 {
@@ -443,6 +446,10 @@ footer div {
 	#infoHolder 
 	{
 		width: 466px;
+	}
+	#forInstitutes
+	{
+		width: 1188px;
 	}
 }
 @media (min-width: 1025px) and (max-width: 1280px)
@@ -542,6 +549,7 @@ footer div {
 	#forInstitutes {
 		width: 99%;
 		max-width: 1188px;
+		text-align: justify;
 	}
 }
 @media (min-width: 801px) and (max-width: 1024px)
