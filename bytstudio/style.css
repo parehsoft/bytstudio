@@ -343,6 +343,10 @@ footer div {
 		width: 500px;
     	margin-right: 4px;
 	}
+	#forPictureRotation
+	{
+		height: 534px;
+	}
 	#forPictureRotation > img 
 	{
     	width: auto;
@@ -436,6 +440,10 @@ footer div {
 		float: left;
 		width: 500px;
     	margin-right: 4px;
+	}
+	#forPictureRotation
+	{
+		height: 534px;
 	}
 	#forPictureRotation > img 
 	{
@@ -536,6 +544,10 @@ footer div {
     	max-width: 500px;
     	margin-right: 4px;
 	}
+	#forPictureRotation
+	{
+		height: 534px;
+	}
 	#forPictureRotation > img 
 	{
     	width: auto;
@@ -634,6 +646,10 @@ footer div {
     	max-width: 500px;
     	margin-right: 4px;
 	}
+	#forPictureRotation
+	{
+		height: 534px;
+	}
 	#forPictureRotation > img 
 	{
     	width: auto;
@@ -725,6 +741,10 @@ footer div {
 		width: 60%;
     	max-width: 500px;
     	margin-right: 3px;
+	}
+	#forPictureRotation
+	{
+		height: 534px;
 	}
 	#forPictureRotation > img 
 	{
@@ -834,6 +854,10 @@ footer div {
     	max-width: 500px;
     	height: 400px;
     	margin-bottom: 4px;
+	}
+	#forPictureRotation
+	{
+		height: 400px;
 	}
 	#displayImageFromInfoHolder
 	{
