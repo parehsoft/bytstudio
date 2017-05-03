@@ -5,7 +5,7 @@
 
 body {
 	font-size: 16px;
-	background-color: #DEDEDE;
+	background-color: #E3E3E3;
 	margin: 4px;
 }
 
@@ -78,7 +78,7 @@ h2 {
 }
 
 .OpeningHours > ul > li {
-	color: #DEDEDE;
+	color: #E3E3E3;
 }
 
 .OpeningHours > ul > li > span {
@@ -249,7 +249,7 @@ footer div {
 
 .Menus > ul > li > a:hover, .Menus > ul > li > a:active {
 	color: black;
-	background-color: #DEDEDE;
+	background-color: #E3E3E3;
 	text-decoration: underline;
 	text-decoration-color: black;
 	box-shadow: 0 1px 5px 1px #5D478B;
