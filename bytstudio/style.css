@@ -78,7 +78,7 @@ h2 {
 }
 
 .OpeningHours > ul > li {
-	color: #E3E3E3;
+	color: #FFFFFD;
 }
 
 .OpeningHours > ul > li > span {
@@ -150,6 +150,17 @@ h2 {
 	clear: both;
 }
 
+#bottomMenu > ul {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+#bottomMenu > ul > li {
+	display: inline-block;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
 #forInstitutes {
 	margin-bottom: 8px;
 }
@@ -166,10 +177,6 @@ h2 {
 #forInstitutes > ul {
 	margin-top: 12px;
 	margin-bottom: 12px;
-}
-
-#bottomMenu > ul > li , #forInstitutes > ul > li {
-	display: inline;
 }
 
 #forInstitutes > ul > li {
@@ -645,9 +652,16 @@ footer div {
 	{
 		height: 35px;
 	}
+	#leftMenu ul
+	{
+		margin-top: 12px;
+		margin-bottom: 12px;
+	}
 	#leftMenu ul > li 
 	{
-		display: inline;
+		display: inline-block;
+		margin-top: 2px;
+		margin-bottom: 2px;
 	}
 	#imageHolder
 	{
@@ -741,9 +755,16 @@ footer div {
 	{
 		height: 55px;
 	}
+	#leftMenu ul
+	{
+		margin-top: 12px;
+		margin-bottom: 12px;
+	}
 	#leftMenu ul > li 
 	{
-		display: inline;
+		display: inline-block;
+		margin-top: 2px;
+		margin-bottom: 2px;
 	}
 	#imageHolder
 	{
@@ -861,9 +882,16 @@ footer div {
 	{
 		height: 60px;
 	}
+	#leftMenu ul
+	{
+		margin-top: 12px;
+		margin-bottom: 12px;
+	}
 	#leftMenu ul > li 
 	{
-		display: inline;
+		display: inline-block;
+		margin-top: 2px;
+		margin-bottom: 2px;
 	}
 	#imageHolder
 	{
