@@ -28,7 +28,7 @@ body {
 	float: left;
 }
 
-#brand a {
+#brand > a {
 	text-decoration: none;
 }
 
@@ -43,6 +43,11 @@ h2 {
 	margin-top: 0px;
 	margin-bottom: 6px;
 	font-size: 1em;
+	color: #8968CD;
+}
+
+h2 a {
+	text-decoration: none;
 	color: #8968CD;
 }
 
@@ -263,6 +268,10 @@ footer div {
 /* PSEUDO CLASS SELECTORS ---------------------- */
 #logoImage:hover, #logoImage:active {
 	box-shadow: 0 1px 5px 1px #5D478B;
+}
+
+h2 a:hover, h2 a:active {
+	text-decoration: underline;
 }
 
 .Menus > ul > li > a:hover, .Menus > ul > li > a:active {
