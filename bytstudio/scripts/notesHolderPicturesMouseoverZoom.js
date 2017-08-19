@@ -1,10 +1,13 @@
 /*** IMAGE MOUSEOVER ZOOM --------------------------------------------------------------------------------------------- */
-var element = document.getElementById("displayImageFromInfoHolder");
-
 function zoomBytstudioIn() {
-	element.style.visibility = "visible";
+    var element = document.getElementById("displayImageFromInfoHolder");
+    element.style.visibility = "visible";
 }
 
 function zoomBytstudioOut() {
-	element.style.visibility = "hidden";
+    var element = document.getElementById("displayImageFromInfoHolder");
+    element.style.visibility = "hidden";
 }
+
+document.querySelector("#infoHolderImageWrapper").onmouseover = zoomBytstudioIn;
+document.querySelector("#infoHolderImageWrapper").onmouseout = zoomBytstudioOut;

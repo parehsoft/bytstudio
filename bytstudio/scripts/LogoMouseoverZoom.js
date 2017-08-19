@@ -10,3 +10,6 @@ function zoomLogoOut() {
 	var element = document.getElementById("zoomedLogo");
 	element.remove();
 }
+
+document.querySelector("#logoImage").onmouseover =  zoomLogoIn;
+document.querySelector("#logoImage").onmouseout  = zoomLogoOut;
