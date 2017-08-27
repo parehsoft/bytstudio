@@ -244,6 +244,11 @@ footer div {
 	color: #5D478B;
 	font-size: 0.75em;
 }
+
+footer div a {
+	text-decoration: none;
+	color: #5D478B;
+}
 /* Fot javascripted HTML ----------------------- */
 #forZoomedLogo {
 	margin-left: auto;
@@ -288,6 +293,10 @@ h2 a:hover, h2 a:active {
 
 .SpecialTitle > span:hover, .SpecialTitle > span:active {
 	box-shadow: 0 1px 5px 1px #5D478B;
+}
+
+footer div a:hover, footer div a:active {
+	text-decoration: underline;
 }
 
 /* MEIDA QUERIES ------------------------------- */
@@ -873,13 +882,6 @@ h2 a:hover, h2 a:active {
 	#brand 
 	{
 		float: none;
-	}
-	#brand button 
-	{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 4px;
 	}
 	.OpeningHours 
 	{
