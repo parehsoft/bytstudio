@@ -9,14 +9,16 @@
 
     PictureRotator.switchImage = function () {
         var message = "<img src=\"./pictures/" + imageNumber + ".jpg\" width=\"auto\" height=\"auto\">";
-        document.getElementById("forPictureRotation").innerHTML = message;
-
-        if (imageNumber < imageCount) {
-            imageNumber += 1;
-        }
-        else {
-            imageNumber = 1;
-        }
+        var element = document.getElementById("forPictureRotation");
+        if (element != null) {
+            element.innerHTML = message;
+            if (imageNumber < imageCount) {
+                imageNumber += 1;
+            }
+            else {
+                imageNumber = 1;
+            }
+        }        
     }
 
     window.PictureRotator = PictureRotator;

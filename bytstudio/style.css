@@ -287,6 +287,13 @@ h2 a:hover, h2 a:active {
 	box-shadow: 0 1px 5px 1px #5D478B;
 }
 
+.Menus > ul > li > a:focus {
+	color: black;
+	background-color: #E3E3E3;
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+
 #infoHolderImageWrapper > a > img:hover, #infoHolderImageWrapper > a > img:active {
 	box-shadow: 0 1px 5px 1px #5D478B;
 }
