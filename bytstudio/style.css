@@ -203,8 +203,11 @@ h2 a {
 	margin-right: auto;
 }
 
-#infoHolderImageWrapper img
-{
+#infoHolderImageWrapper a {
+	cursor: pointer;
+}
+
+#infoHolderImageWrapper img {
 	transition: 0.1s;
 }
 
@@ -249,7 +252,7 @@ footer div a {
 	text-decoration: none;
 	color: #5D478B;
 }
-/* Fot javascripted HTML ----------------------- */
+/* Javascripted HTML --------------------------- */
 #forZoomedLogo {
 	margin-left: auto;
 	margin-right: auto;
@@ -261,6 +264,23 @@ footer div a {
     max-width: 100%;
 }
 
+/* Javascripted HTML --------------------------- */
+.Items > h3 {
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+/* Javascripted HTML --------------------------- */
+.Items p {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	text-align: justify;
+}
+
+/* Javascripted HTML --------------------------- */
 #displayImageFromInfoHolder {
 	position: absolute;
 	visibility: hidden;
@@ -379,7 +399,7 @@ footer div a:hover, footer div a:active {
 	{
 		display: block;
 	}
-	#imageHolder
+	#imageHolder, .Items
 	{
 		position: relative;
 		float: left;
@@ -477,7 +497,7 @@ footer div a:hover, footer div a:active {
 	{
 		display: block;
 	}
-	#imageHolder
+	#imageHolder, .Items
 	{
 		position: relative;
 		float: left;
@@ -579,7 +599,7 @@ footer div a:hover, footer div a:active {
 	{
 		display: block;
 	}
-	#imageHolder
+	#imageHolder, .Items
 	{
 		position: relative;
 		float: left;
@@ -688,7 +708,7 @@ footer div a:hover, footer div a:active {
 		margin-top: 2px;
 		margin-bottom: 2px;
 	}
-	#imageHolder
+	#imageHolder, .Items
 	{
 		position: relative;
 		float: left;
@@ -791,7 +811,7 @@ footer div a:hover, footer div a:active {
 		margin-top: 2px;
 		margin-bottom: 2px;
 	}
-	#imageHolder
+	#imageHolder, .Items
 	{
 		position: relative;
 		float: left;
@@ -912,7 +932,7 @@ footer div a:hover, footer div a:active {
 		margin-top: 2px;
 		margin-bottom: 2px;
 	}
-	#imageHolder
+	#imageHolder, .Items
 	{
 		position: relative;
 		width: 100%;

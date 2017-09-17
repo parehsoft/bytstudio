@@ -6,7 +6,7 @@
     }
 
     UseAjax.LoadNetCurtains = function () {
-        $AjaxUtils.SendGetRequest("./snippets/netcurtains.html", HandleResponse);
+        $AjaxUtils.SendGetRequest("./snippets/netCurtains.html", HandleResponse);
     };
 
     UseAjax.LoadCurtains = function () {
