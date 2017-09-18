@@ -252,10 +252,17 @@ footer div a {
 	text-decoration: none;
 	color: #5D478B;
 }
+
 /* Javascripted HTML --------------------------- */
 #forZoomedLogo {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#forZoomedLogo > img
+{
+	box-shadow: 0px 0px 5px 1px #5D478B;
+	margin-bottom: 4px;
 }
 
 /* Javascripted HTML --------------------------- */
@@ -284,15 +291,17 @@ footer div a {
 #displayImageFromInfoHolder {
 	position: absolute;
 	visibility: hidden;
+	z-index: 1;
 }
 
 #displayImageFromInfoHolder > img {
 	width: 100%;
+	box-shadow: 0px 0px 5px 1px #5D478B;
 }
 
 /* PSEUDO CLASS SELECTORS ---------------------- */
 #logoImage:hover, #logoImage:active {
-	box-shadow: 0 1px 5px 1px #5D478B;
+	box-shadow: 0px 0px 5px 1px #5D478B;
 }
 
 h2 a:hover, h2 a:active {
@@ -304,7 +313,7 @@ h2 a:hover, h2 a:active {
 	background-color: #E3E3E3;
 	text-decoration: underline;
 	text-decoration-color: black;
-	box-shadow: 0 1px 5px 1px #5D478B;
+	box-shadow: 0px 0px 5px 1px #5D478B;
 }
 
 .Menus > ul > li > a:focus {
@@ -312,14 +321,15 @@ h2 a:hover, h2 a:active {
 	background-color: #E3E3E3;
 	text-decoration: underline;
 	text-decoration-color: black;
+	box-shadow: inset 0px 0px 1px 1px #5D478B;
 }
 
 #infoHolderImageWrapper > a > img:hover, #infoHolderImageWrapper > a > img:active {
-	box-shadow: 0 1px 5px 1px #5D478B;
+	box-shadow: 0px 0px 5px 1px #5D478B;
 }
 
 .SpecialTitle > span:hover, .SpecialTitle > span:active {
-	box-shadow: 0 1px 5px 1px #5D478B;
+	box-shadow: 0px 0px 5px 1px #5D478B;
 }
 
 footer div a:hover, footer div a:active {
@@ -932,17 +942,25 @@ footer div a:hover, footer div a:active {
 		margin-top: 2px;
 		margin-bottom: 2px;
 	}
-	#imageHolder, .Items
+	#imageHolder
 	{
 		position: relative;
 		width: 100%;
     	max-width: 500px;
-    	height: 400px;
     	margin-bottom: 4px;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+	.Items
+	{
+		position: relative;
+		width: 100%;
+    	margin-bottom: 4px;
+    	min-height: 301px;
 	}
 	#forPictureRotation
 	{
-		height: 400px;
+		height: 350px;
 	}
 	#displayImageFromInfoHolder
 	{
@@ -951,7 +969,7 @@ footer div a:hover, footer div a:active {
 	#forPictureRotation > img 
 	{
     	max-width: 100%;
-    	max-height: 400px;
+    	max-height: 350px;
 	}
 	#infoHolder 
 	{
