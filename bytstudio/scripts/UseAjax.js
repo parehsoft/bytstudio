@@ -2,10 +2,7 @@
     var UseAjax = {}; // Namespace.
 
     function HandleResponse(request) {
-        var placeHolder = document.querySelector("#contentPlaceHolder");
-        var showLoading = "<span style=\"margin-left: auto; margin-right: auto;\"><img src=\"pictures/ajax-loader.gif\"></span>";
-        placeHolder.innerHTML = showLoading;
-        placeHolder.innerHTML = request.responseText;
+        document.querySelector("#contentPlaceHolder").innerHTML = request.responseText;
     }
 
     UseAjax.LoadNetCurtains = function () {
