@@ -3,7 +3,7 @@
 
     function HandleResponse(request) {
 	    var element = document.querySelector("#contentPlaceHolder");
-	    element.innerHTML = "<div style=\"margin-left: auto; margin-right: auto;\"><img src=\"pictures/ajax-loader.gif\"></div>";
+	    element.innerHTML = "<div id=\"imageHolder\"><div style=\"margin-left: 49%;\"><img src=\"pictures/ajax-loader.gif\"></div></div>";
         element.innerHTML = request.responseText;
     }
 
