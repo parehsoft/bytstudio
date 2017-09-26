@@ -84,6 +84,21 @@
         $AjaxUtils.SendGetRequest("./snippets/antiques.html", HandleResponse);
     };
 
+    UseAjax.LoadMaterialSale = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/materialSale.html", HandleResponse);
+    };
+
+    UseAjax.LoadProfessionSummary = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/professionSummary.html", HandleResponse);
+    };
+
+    UseAjax.LoadHouseholdEquipment = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/householdEquipment.html", HandleResponse);
+    };
+
     global.$UseAjax = UseAjax; // Exposing the namespace.
 })(window); // Calling IIFE.
 
@@ -102,3 +117,7 @@ document.getElementById("rollerBlinds").onclick = $UseAjax.LoadRollerBlinds;
 document.getElementById("gardenFurniture").onclick = $UseAjax.LoadGardenFurniture;
 document.getElementById("carUpholstery").onclick = $UseAjax.LoadCarUpholstery;
 document.getElementById("antiques").onclick = $UseAjax.LoadAntiques;
+
+document.getElementById("materialSale").onclick = $UseAjax.LoadMaterialSale;
+document.getElementById("professionSummary").onclick = $UseAjax.LoadProfessionSummary;
+document.getElementById("householdEquipment").onclick = $UseAjax.LoadHouseholdEquipment;
