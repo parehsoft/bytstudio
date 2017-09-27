@@ -99,6 +99,71 @@
         $AjaxUtils.SendGetRequest("./snippets/householdEquipment.html", HandleResponse);
     };
 
+    UseAjax.LoadForKids = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/forKids.html", HandleResponse);
+    };
+
+    UseAjax.LoadGifts = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/gifts.html", HandleResponse);
+    };
+
+    UseAjax.LoadAdvertising = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/advertising.html", HandleResponse);
+    };
+
+    UseAjax.LoadOffice = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/office.html", HandleResponse);
+    };
+
+    UseAjax.LoadSchools = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/schools.html", HandleResponse);
+    };
+
+    UseAjax.LoadTheatres = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/theatres.html", HandleResponse);
+    };
+
+    UseAjax.LoadHomeForElderly = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/homeForElderly.html", HandleResponse);
+    };
+
+    UseAjax.LoadPolice = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/police.html", HandleResponse);
+    };
+
+    UseAjax.LoadHealthCare = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/healthCare.html", HandleResponse);
+    };
+
+    UseAjax.LoadCarRepairShops = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/carRepairShops.html", HandleResponse);
+    };
+
+    UseAjax.LoadVeterans = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/veterans.html", HandleResponse);
+    };
+
+    UseAjax.LoadYounker = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/younker.html", HandleResponse);
+    };
+
+    UseAjax.LoadChurch = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/church.html", HandleResponse);
+    };
+
     global.$UseAjax = UseAjax; // Exposing the namespace.
 })(window); // Calling IIFE.
 
@@ -121,3 +186,17 @@ document.getElementById("antiques").onclick = $UseAjax.LoadAntiques;
 document.getElementById("materialSale").onclick = $UseAjax.LoadMaterialSale;
 document.getElementById("professionSummary").onclick = $UseAjax.LoadProfessionSummary;
 document.getElementById("householdEquipment").onclick = $UseAjax.LoadHouseholdEquipment;
+document.getElementById("forKids").onclick = $UseAjax.LoadForKids;
+document.getElementById("gifts").onclick = $UseAjax.LoadGifts;
+document.getElementById("advertising").onclick = $UseAjax.LoadAdvertising;
+
+document.getElementById("office").onclick = $UseAjax.LoadOffice;
+document.getElementById("schools").onclick = $UseAjax.LoadSchools;
+document.getElementById("theatres").onclick = $UseAjax.LoadTheatres;
+document.getElementById("homeForElderly").onclick = $UseAjax.LoadHomeForElderly;
+document.getElementById("police").onclick = $UseAjax.LoadPolice;
+document.getElementById("healthCare").onclick = $UseAjax.LoadHealthCare;
+document.getElementById("carRepairShops").onclick = $UseAjax.LoadCarRepairShops;
+document.getElementById("veterans").onclick = $UseAjax.LoadVeterans;
+document.getElementById("younker").onclick = $UseAjax.LoadYounker;
+document.getElementById("church").onclick = $UseAjax.LoadChurch;

@@ -288,6 +288,11 @@ footer div a {
 }
 
 /* Javascripted HTML --------------------------- */
+.Items li {
+	text-align: justify;
+}
+
+/* Javascripted HTML --------------------------- */
 #displayImageFromInfoHolder {
 	position: absolute;
 	visibility: hidden;
@@ -416,6 +421,10 @@ footer div a:hover, footer div a:active {
 		width: 500px;
     	margin-right: 4px;
 	}
+	.Items
+	{
+		padding-right: 4px;
+	}
 	#forPictureRotation
 	{
 		height: 534px;
@@ -513,6 +522,10 @@ footer div a:hover, footer div a:active {
 		float: left;
 		width: 500px;
     	margin-right: 4px;
+	}
+	.Items
+	{
+		padding-right: 4px;
 	}
 	#forPictureRotation
 	{
@@ -616,6 +629,10 @@ footer div a:hover, footer div a:active {
 		width: 40%;
     	max-width: 500px;
     	margin-right: 4px;
+	}
+	.Items
+	{
+		padding-right: 4px;
 	}
 	#forPictureRotation
 	{
@@ -828,6 +845,10 @@ footer div a:hover, footer div a:active {
 		width: 60%;
     	max-width: 500px;
     	margin-right: 3px;
+	}
+	.Items
+	{
+		padding-right: 4px;
 	}
 	#forPictureRotation
 	{
