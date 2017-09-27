@@ -288,6 +288,11 @@ footer div a {
 }
 
 /* Javascripted HTML --------------------------- */
+.Items ul {
+	padding-left: 20px;
+}
+
+/* Javascripted HTML --------------------------- */
 .Items li {
 	text-align: justify;
 }
