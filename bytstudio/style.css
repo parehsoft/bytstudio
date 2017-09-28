@@ -106,6 +106,46 @@ h2 a {
 	margin-top: 0px;
 }
 
+.Modal {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    padding-top: 30px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.ModalContent {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+#captionOfMainModalImage {
+    margin: auto;
+    display: block;
+    width: 90%;
+    text-align: center;
+    color: #E3E3E3;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.Close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #E3E3E3;
+    font-size: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 #notesHolder {
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -306,6 +346,10 @@ footer div a {
 }
 
 /* PSEUDO CLASS SELECTORS ---------------------- */
+.Close:hover, .Close:active {
+    color: red;
+}
+
 #logoImage:hover, #logoImage:active {
 	box-shadow: 0px 0px 5px 1px #5D478B;
 }

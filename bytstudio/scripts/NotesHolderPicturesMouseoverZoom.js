@@ -12,3 +12,5 @@ function zoomBytstudioOut() {
 
 document.querySelector("#infoHolderImageWrapper").onmouseover = zoomBytstudioIn;
 document.querySelector("#infoHolderImageWrapper").onmouseout = zoomBytstudioOut;
+document.querySelector("#logoImage").onmouseover = zoomBytstudioIn;
+document.querySelector("#logoImage").onmouseout  = zoomBytstudioOut;

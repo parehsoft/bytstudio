@@ -2,7 +2,7 @@
     var UseAjax = {}; // Namespace.
 
     function ShowLoading() {
-        document.querySelector("#contentPlaceHolder").innerHTML = "<div id=\"imageHolder\"><div style=\"margin-left: 49%;\"><img src=\"pictures/ajax-loader.gif\"></div></div>";
+        document.querySelector("#contentPlaceHolder").innerHTML = "<div id=\"imageHolder\"><div style=\"margin-left: 49%; min-height: 301px;\"><img src=\"pictures/ajax-loader.gif\"></div></div>";
     }
 
     function HandleResponse(request) {

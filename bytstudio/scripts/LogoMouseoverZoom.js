@@ -11,5 +11,5 @@ function zoomLogoOut() {
 	element.remove();
 }
 
-document.querySelector("#logoImage").onmouseover =  zoomLogoIn;
-document.querySelector("#logoImage").onmouseout  = zoomLogoOut;
+// document.querySelector("#logoImage").onmouseover =  zoomLogoIn;
+// document.querySelector("#logoImage").onmouseout  = zoomLogoOut;

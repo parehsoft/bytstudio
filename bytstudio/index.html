@@ -46,6 +46,16 @@
 		<embed id="importedText" src="./message/MessageToImport.html"></embed>
 	</div>
 <hr id="hr2" class="Hr">
+	<!-- The Modal -->
+	<div id="myModal" class="Modal">
+  	<span class="Close">&times;</span>
+  	<div class="ModalContent col-640-11 col-800-11 col-1024-11 col-1280-10 col-1600-10 col-1920-9">
+  		<div id="captionOfMainModalImage">
+  			Bytové&nbsp;studio Marie&nbsp;Kolbábková
+  		</div>
+  		<img id="mainModalImage" src="./pictures/bytstudio-big.jpg" width="100%" height="auto">
+  	</div>
+	</div>
 	<div id="mainContent" class="col-1920-10">
 		<div id="forZoomedLogo" class="col-640-12 col-800-12 col-1024-12 col-1280-10 col-1600-10 col-1920-9">
 			<!-- Javascript inserted HTML -->
@@ -84,7 +94,7 @@
 		</div>
 		<div id="infoHolder">
 			<div id="infoHolderImageWrapper">
-				<a href="./openPictures/openPictures.html" target="_blank" title="Otevřít obrázek v novém okně.">
+				<a href="javascript:void(0);" title="Bytové studio - Marie Kolbábková, click to enlarge.">
 					<img src="./pictures/bytstudio-126y.jpg" width="auto" height="auto">
 				</a>
 			</div>
@@ -135,7 +145,7 @@
 <footer>
   <div class="col-640-12 col-800-12 col-1024-12 col-1280-11 col-1600-10 col-1920-10">
   	&#169;&nbsp;Bytové&nbsp;studio&nbsp;Marie&nbsp;Kolbábková&nbsp;
-  	<span>
+  	<span id="aboutUs">
   		|&nbsp;<a href="#" title="Zajímavosti a o nás."><b>Zajímavosti&nbsp;a&nbsp;o&nbsp;nás</b></a>
   	</span>
   	<div>
@@ -150,6 +160,7 @@
 <script type="text/javascript" src="scripts/AjaxUtils.js"></script>
 <script type="text/javascript" src="scripts/PictureRotation.js"></script>
 <script type="text/javascript" src="scripts/LogoMouseoverZoom.js"></script>
+<script type="text/javascript" src="scripts/DisplayModal.js"></script>
 <script type="text/javascript" src="scripts/NotesHolderPicturesMouseoverZoom.js"></script>
 <script type="text/javascript" src="scripts/UseAjax.js"></script>
 </body>
