@@ -203,10 +203,6 @@ h2 a {
 	margin-right: auto;
 }
 
-#infoHolderImageWrapper a {
-	cursor: pointer;
-}
-
 #infoHolderImageWrapper img {
 	transition: 0.1s;
 }
@@ -289,7 +285,7 @@ footer div a {
 
 /* Javascripted HTML --------------------------- */
 .Items ul {
-	padding-left: 20px;
+	padding-left: 16px;
 }
 
 /* Javascripted HTML --------------------------- */
