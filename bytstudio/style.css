@@ -290,24 +290,6 @@ footer div a {
 }
 
 /* Javascripted HTML --------------------------- */
-#forZoomedLogo {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#forZoomedLogo > img
-{
-	box-shadow: 0px 0px 5px 1px #5D478B;
-	margin-bottom: 4px;
-}
-
-/* Javascripted HTML --------------------------- */
-#zoomedLogo {
-	width: auto;
-    max-width: 100%;
-}
-
-/* Javascripted HTML --------------------------- */
 .Items > h3 {
 	font-weight: bold;
 	margin-top: 0px;
@@ -340,6 +322,7 @@ footer div a {
 	z-index: 1;
 }
 
+/* Javascripted HTML --------------------------- */
 #displayImageFromInfoHolder > img {
 	width: 100%;
 	box-shadow: 0px 0px 5px 1px #5D478B;
