@@ -109,9 +109,9 @@
         $AjaxUtils.SendGetRequest("./snippets/gifts.html", HandleResponse);
     };
 
-    UseAjax.LoadReklama = function () {
+    UseAjax.LoadAdvertising = function () {
         ShowLoading();
-        $AjaxUtils.SendGetRequest("./snippets/reklama.html", HandleResponse);
+        $AjaxUtils.SendGetRequest("./snippets/advertising.html", HandleResponse);
     };
 
     UseAjax.LoadOffice = function () {
@@ -188,7 +188,7 @@ document.getElementById("professionSummary").onclick = $UseAjax.LoadProfessionSu
 document.getElementById("householdEquipment").onclick = $UseAjax.LoadHouseholdEquipment;
 document.getElementById("forKids").onclick = $UseAjax.LoadForKids;
 document.getElementById("gifts").onclick = $UseAjax.LoadGifts;
-document.getElementById("mmReklama").onclick = $UseAjax.LoadReklama;
+document.getElementById("advertising").onclick = $UseAjax.LoadAdvertising;
 
 document.getElementById("office").onclick = $UseAjax.LoadOffice;
 document.getElementById("schools").onclick = $UseAjax.LoadSchools;
