@@ -111,6 +111,8 @@
 
     UseAjax.LoadAdvertising = function () {
         ShowLoading();
+        setTimeout(void (0), 1000);
+        console.log("Waiting ended.");
         $AjaxUtils.SendGetRequest("./snippets/advertising.html", HandleResponse);
     };
 
