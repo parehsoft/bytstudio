@@ -15,6 +15,7 @@
         console.log(this);
         console.log(request);
         request.onreadystatechange = function () { // The onreadystatechange property defines a function to be executed when the readyState changes.
+            alert("Inside of on readystatechange function");
             var str = "-- readystaye == " + this.readyState + " and status == " + this.status;
             console.log(str);
             console.log(this);
@@ -23,8 +24,8 @@
                 ResponceHandler(request); // Call the function which will process the response from the server, which is located in the above created XMLHttpRequest.
             }
         };
-
-        request.open("GET", myURL, true) // Prepare the request.
+        alert("Request is going to be sent.");
+        request.open("GET", myURL, true); // Prepare the request.
         request.send(null); // Send the request. GET Http method doesn't send any data (POST method sends data to server), so null for empty. 
     };
 
