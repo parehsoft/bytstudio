@@ -2,12 +2,12 @@
 
 function zoomBytstudioIn() {
     var element = document.getElementById("displayImageFromInfoHolder");
-    if (element != null) { element.style.visibility = "visible"; }
+    if (element != null) { element.style.display = "block"; }
 }
 
 function zoomBytstudioOut() {
     var element = document.getElementById("displayImageFromInfoHolder");
-    if (element != null) { element.style.visibility = "hidden"; }
+    if (element != null) { element.style.display = "none"; }
 }
 
 document.querySelector("#infoHolderImageWrapper").onmouseover = zoomBytstudioIn;

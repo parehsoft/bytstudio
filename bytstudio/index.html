@@ -54,11 +54,11 @@
   		<div id="modalMenu" class="col-640-11 col-800-11 col-1024-11 col-1280-10 col-1600-10 col-1920-9">
   			<a name="toTheTop"></a>
   			<ul>
-  				<li><a href="#1">Před&nbsp;100&nbsp;Lety</a>&nbsp;|</li>
-  				<li><a href="#2">Založení&nbsp;Firmy</a>&nbsp;|</li>
-  				<li><a href="#3">Reference</a>&nbsp;|</li>
-  				<li><a href="#4">Realizace&nbsp;Podejny&nbsp;a&nbsp;Povolení</a>&nbsp;|</li>
-  				<li><a href="#5">Realizace&nbsp;Reklamního&nbsp;Panelu</a></li>
+  				<li><a href="#section1">Před&nbsp;100&nbsp;Lety</a>&nbsp;|</li>
+  				<li><a href="#section2">Založení&nbsp;Firmy</a>&nbsp;|</li>
+  				<li><a href="#section3">Reference</a>&nbsp;|</li>
+  				<li><a href="#section4">Realizace&nbsp;Podejny&nbsp;a&nbsp;Povolení</a>&nbsp;|</li>
+  				<li><a href="#section5">Realizace&nbsp;Reklamního&nbsp;Panelu</a></li>
   			</ul>
   		</div>
   		<div class="ModalRow col-640-11 col-800-11 col-1024-11 col-1280-10 col-1600-10 col-1920-9">
@@ -66,18 +66,23 @@
   			<img id="mainModalImage" src="./pictures/bytstudio-big.jpg" width="100%" height="auto">
   		</div>
   		<hr class="HrInMpdal">
+  		<section id="section1">
   		<div class="ModalRow col-640-11 col-800-11 col-1024-11 col-1280-10 col-1600-10 col-1920-9">
-  			<h5><a name="1">Foto Před 100 Lety</h5>
+  			<h5>Foto Před 100 Lety</h5>
   			<img class="SmallerImagesInModal" src="./pictures/100YearsAgo.png" width="100%" height="auto">
   		</div>
+  		</section>
   		<hr class="HrInMpdal">
+  		<section id="section2">
   		<div class="ModalRow col-640-11 col-800-11 col-1024-11 col-1280-10 col-1600-10 col-1920-9">
-  			<h5><a name="2">Založení Firmy</h5>
+  			<h5>Založení Firmy</h5>
   			<div class="NormalText">Čalounictví Marie Kolbábková začalo fungovat na povolení MNV 10. května 1988.</div>
   		</div>
+  		</section>
   		<hr class="HrInMpdal">
+  		<section id="section3">
   		<div class="ModalRow col-640-11 col-800-11 col-1024-11 col-1280-10 col-1600-10 col-1920-9">
-  			<h5><a name="3">Reference</h5>
+  			<h5>Reference</h5>
   			<div id="referencesText" class="NormalText">
   				Práce pro Národní divadlo Brno, Nejvyšší soud ČR, Biskupství Brno, Baziliku Porta Coeli Předklášteří -&nbsp;památka UNESCO, Magistrát Města Brna, Konzervatoř Brno, Masarykovu univerzitu, Fakultní nemocnici Brno, Českou spořitelnu, Domov pro seniory Brno Nový Lískovec, Národní Galerii Města Prahy -&nbsp;pro Trojský zámek a Národní knihovnu, LET Kunovice, Porsche Brno, Kajot, Škoda auto Mladá Boleslav, atd. atd.
   			</div>
@@ -85,9 +90,11 @@
   			<div class="NormalText"><sub>Papež František hodnotí výšivku z Bytového studia (Itálie/Vatikán/2016).</sub></div>
   			<img class="SmallerImagesInModal" src="./pictures/popeAndBytstudio.jpg" width="100%" height="auto">
   		</div>
+  		</section>
   		<hr class="HrInMpdal">
+  		<section id="section4">
   		<div class="ModalRow col-640-11 col-800-11 col-1024-11 col-1280-10 col-1600-10 col-1920-9">
-  			<h5><a name="4">Realizace Prodejny a Povolení</h5>
+  			<h5>Realizace Prodejny a Povolení</h5>
   			<div class="NormalText"><sub>jak to vypadalo před stavbou</sub></div>
   			<img class="SmallerImagesInModal" src="./pictures/beforeTheConstruction.jpg" width="100%" height="auto">
   			<div class="PermitBlock">
@@ -260,9 +267,11 @@
   			<div class="NormalText"><sub>po stavbě</sub></div>
   			<img class="SmallerImagesInModal" src="./pictures/afterTheConstruction.jpg" width="100%" height="auto">
   		</div>
+  		</section>
   		<hr class="HrInMpdal">
+  		<section id="section5">
   		<div class="ModalRow col-640-11 col-800-11 col-1024-11 col-1280-10 col-1600-10 col-1920-9">
-  			<h5><a name="5">Realizace Reklamního Panelu</h5>
+  			<h5>Realizace Reklamního Panelu</h5>
 				<div class="PermitBlock">
 					<ul>
 						<li>konzultace se stavebním úřadem</li>
@@ -287,6 +296,7 @@
   			<div class="NormalText"><sub>po stavbě panelu</sub></div>
   			<img class="SmallerImagesInModal" src="./pictures/afterAdvertisingPanel.jpg" width="100%" height="auto">
   		</div>
+  		</section>
   	</div>
   	<div style="padding-bottom: 300px;"></div>
 	</div>
@@ -314,6 +324,9 @@
 		<div id="contentPlaceHolder">
 		<!-- Javascript manipulated HTML and CSS -->
 			<div id="imageHolder">
+			<div id="toggleRotation" class="ImageArrows">Toggle rotation</div>
+			<div id="leftArrow" class="ImageArrows"> << </div>
+			<div id="rightArrow" class="ImageArrows"> >> </div>
 				<!-- Javascript manipulated HTML and CSS -->
 				<div id="displayImageFromInfoHolder">
 					<img src="./pictures/bytstudio.jpg" width="auto" height="auto">

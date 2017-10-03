@@ -21,7 +21,7 @@ body {
 	height: 98px;
 	margin-right: 8px;
 	margin-bottom: 8px;
-	transition: 0.1s;
+	transition: 0.3s;
 }
 
 #brand {
@@ -334,6 +334,20 @@ h2 a {
 	margin-bottom: 2px;
 }
 
+#forPictureRotation {
+	position: relative;
+}
+
+#forPictureRotation > img {
+	animation-name: fade;
+	animation-duration: 0.3s;
+}
+
+@keyframes fade {
+    from {opacity: 0.5}
+    to   {opacity: 1}
+}
+
 #infoHolder {
 	float: left;
 	margin-bottom: 4px;
@@ -348,7 +362,7 @@ h2 a {
 }
 
 #infoHolderImageWrapper img {
-	transition: 0.1s;
+	transition: 0.3s;
 }
 
 .boxHolder {
@@ -375,7 +389,7 @@ h2 a {
 	opacity: 0.75;
 	padding-top: 1px;
 	padding-bottom: 1px;
-	transition: 0.2s;
+	transition: 0.3s;
 }
 .SpecialTitle > span > span {
 	color: #8968CD;
@@ -394,6 +408,48 @@ footer div a {
 }
 
 /* Javascripted HTML --------------------------- */
+.ImageArrows {
+	position: absolute;
+	display: none;
+	font-size: 1.4em;
+	font-weight: bold;
+	z-index: 1;
+	color: #E3E3E3;
+	background-color: rgb(0,0,0);
+	cursor: pointer;
+	animation-name: changeopacity;
+	animation-duration: 0.3s;
+	opacity: 0.6;
+	transition: 0.3s;
+}
+
+@keyframes changeopacity {
+    from {opacity: 0.0}
+    to   {opacity: 0.6}
+}
+
+
+#toggleRotation {
+	font-size: 1em;
+	text-align: center;
+	width: 100%;
+	padding-top: 2px;
+}
+
+#leftArrow {
+	top: 50%;
+	left: 1%;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+#rightArrow {
+	top: 50%;
+	right: 1%;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
 .Items > h3 {
 	font-weight: bold;
 	margin-top: 0px;
@@ -422,7 +478,7 @@ footer div a {
 /* Javascripted HTML --------------------------- */
 #displayImageFromInfoHolder {
 	position: absolute;
-	visibility: hidden;
+	display: none;
 	z-index: 1;
 }
 
@@ -430,9 +486,16 @@ footer div a {
 #displayImageFromInfoHolder > img {
 	width: 100%;
 	box-shadow: 0px 0px 5px 1px #5D478B;
+	animation-name: fade;
+	animation-duration: 0.3s;
 }
 
 /* PSEUDO CLASS SELECTORS ---------------------- */
+#logoImage:hover, #logoImage:active {
+	box-shadow: 0px 0px 5px 1px #5D478B;
+	border-radius: 3px;
+}
+
 .Close:hover, .Close:active {
     color: red;
 }
@@ -443,10 +506,6 @@ footer div a {
 
 #modalMenu a:hover, #modalMenu a:active { 
 	color: #E3E3E3;
-}
-
-#logoImage:hover, #logoImage:active {
-	box-shadow: 0px 0px 5px 1px #5D478B;
 }
 
 h2 a:hover, h2 a:active {
@@ -469,12 +528,19 @@ h2 a:hover, h2 a:active {
 	box-shadow: inset 0px 0px 1px 1px #5D478B;
 }
 
+.ImageArrows:hover, ImageArrows:active {
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px 1px #5D478B;
+}
+
 #infoHolderImageWrapper > a > img:hover, #infoHolderImageWrapper > a > img:active {
 	box-shadow: 0px 0px 5px 1px #5D478B;
+	border-radius: 3px;
 }
 
 .SpecialTitle > span:hover, .SpecialTitle > span:active {
 	box-shadow: 0px 0px 5px 1px #5D478B;
+	border-radius: 3px;
 }
 
 footer div a:hover, footer div a:active {
