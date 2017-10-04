@@ -9,16 +9,9 @@
     }
 
     AjaxUtils.SendGetRequest = function (myURL, ResponceHandler) {
-        console.log(ResponceHandler);
-        console.log(myURL);
         var request = GetXMLHTTPRequestObject();
-        console.log(this);
-        console.log(request);
         request.onreadystatechange = function () { // The onreadystatechange property defines a function to be executed when the readyState changes.
             var str = "-- readystaye == " + this.readyState + " and status == " + this.status;
-            console.log(str);
-            console.log(this);
-            console.log(this.responseText);
             if (this.readyState === 4 && this.status === 200) {
                 ResponceHandler(request); // Call the function which will process the response from the server, which is located in the above created XMLHttpRequest.
             }

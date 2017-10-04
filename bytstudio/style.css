@@ -414,7 +414,7 @@ footer div a {
 	font-size: 1.4em;
 	font-weight: bold;
 	z-index: 1;
-	color: #E3E3E3;
+	color: #9e9e9e;
 	background-color: rgb(0,0,0);
 	cursor: pointer;
 	animation-name: changeopacity;
@@ -429,6 +429,7 @@ footer div a {
 }
 
 
+/* Javascripted HTML --------------------------- */
 #toggleRotation {
 	font-size: 1em;
 	text-align: center;
@@ -436,6 +437,7 @@ footer div a {
 	padding-top: 2px;
 }
 
+/* Javascripted HTML --------------------------- */
 #leftArrow {
 	top: 50%;
 	left: 1%;
@@ -443,6 +445,7 @@ footer div a {
 	padding-right: 8px;
 }
 
+/* Javascripted HTML --------------------------- */
 #rightArrow {
 	top: 50%;
 	right: 1%;
@@ -450,6 +453,7 @@ footer div a {
 	padding-right: 8px;
 }
 
+/* Javascripted HTML --------------------------- */
 .Items > h3 {
 	font-weight: bold;
 	margin-top: 0px;
@@ -530,6 +534,7 @@ h2 a:hover, h2 a:active {
 
 .ImageArrows:hover, ImageArrows:active {
 	border-radius: 3px;
+	color: #E3E3E3;
 	box-shadow: 0px 0px 5px 1px #5D478B;
 }
 

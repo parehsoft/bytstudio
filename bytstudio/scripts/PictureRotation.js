@@ -7,24 +7,25 @@
     var imageCount = 15; // private variables
     var imageNumber = 1;
 
-    PictureRotator.switchImage = function () {
-        var message = "<img src=\"./pictures/" + imageNumber + ".jpg\" width=\"auto\" height=\"auto\">";
-        var element = document.getElementById("forPictureRotation");
-        if (element != null) {
-            element.innerHTML = message;
-            if (imageNumber < imageCount) {
-                imageNumber += 1;
-            }
-            else {
-                imageNumber = 1;
-            }
-        }        
+    function insertToggleOnOff(string) {
+        var toggleElement = document.getElementById("toggleRotation");
+        toggleElement.innerHTML = "rotace: " + string;
     }
 
-    function onClickRotation() {
+    PictureRotator.switchImage = function () {
+        insertToggleOnOff("zapnuta");
         var message = "<img src=\"./pictures/" + imageNumber + ".jpg\" width=\"auto\" height=\"auto\">";
         var element = document.getElementById("forPictureRotation");
         if (element != null) { element.innerHTML = message; }
+        if (imageNumber < imageCount) { imageNumber += 1; }
+        else { imageNumber = 1; }
+    }        
+
+    function onClickRotation(string) {
+        var message = "<img src=\"./pictures/" + imageNumber + ".jpg\" width=\"auto\" height=\"auto\">";
+        var element = document.getElementById("forPictureRotation");
+        if (element != null) { element.innerHTML = message; }
+        insertToggleOnOff(string);
     }
 
     var rotationStatus = true;
@@ -35,11 +36,11 @@
     PictureRotator.toggleRotation = function (event) {
         if (rotationStatus === true) {
             rotationStatus = false;
-            document.getElementById("toggleRotation").innerHTML = "Toggle rotation, current status: off";
+            insertToggleOnOff("vypnuta");
         }
         else {
             rotationStatus = true;
-            document.getElementById("toggleRotation").innerHTML = "Toggle rotation, current status: on";
+            insertToggleOnOff("zapnuta");
         }
 
         if (rotationStatus === true) { rotationTime = setInterval("PictureRotator.switchImage()", miliseconds); }
@@ -66,25 +67,20 @@
         clearInterval(rotationTime);
         imageNumber--;
         if (imageNumber < 1) { imageNumber = imageCount; }
-        onClickRotation();
-        document.getElementById("toggleRotation").innerHTML = "Toggle rotation, current status: off";
+        onClickRotation("vypnuta");
     }
 
     PictureRotator.rightArrowClicked = function (event) {
         clearInterval(rotationTime);
         imageNumber++;
         if (imageNumber > imageCount) { imageNumber = 1; }
-        onClickRotation();
-        
-        document.getElementById("toggleRotation").innerHTML = "Toggle rotation, current status: off";
+        onClickRotation("vypnuta");
     }
 
     // Expose namespace to window object.
     window.PictureRotator = PictureRotator;
 
 })(window);
-
-
 
 document.getElementById("toggleRotation").onclick = PictureRotator.toggleRotation;
 
