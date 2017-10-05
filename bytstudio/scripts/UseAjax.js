@@ -115,6 +115,11 @@
         $AjaxUtils.SendGetRequest("./snippets/advertising.html", HandleResponse);
     };
 
+    UseAjax.LoadBillboard = function () {
+        ShowLoading();
+        $AjaxUtils.SendGetRequest("./snippets/billboard.html", HandleResponse);
+    };
+
     UseAjax.LoadOffice = function () {
         ShowLoading();
         $AjaxUtils.SendGetRequest("./snippets/office.html", HandleResponse);
@@ -190,6 +195,7 @@ document.getElementById("householdEquipment").onclick = $UseAjax.LoadHouseholdEq
 document.getElementById("forKids").onclick = $UseAjax.LoadForKids;
 document.getElementById("gifts").onclick = $UseAjax.LoadGifts;
 document.getElementById("advertising").onclick = $UseAjax.LoadAdvertising;
+document.getElementById("billboard").onclick = $UseAjax.LoadBillboard;
 
 document.getElementById("office").onclick = $UseAjax.LoadOffice;
 document.getElementById("schools").onclick = $UseAjax.LoadSchools;
