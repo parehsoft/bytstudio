@@ -9,6 +9,14 @@
 	    document.querySelector("#contentPlaceHolder").innerHTML = request.responseText;
     }
 
+    UseAjax.LoadShortMessage = function () {
+        $AjaxUtils.SendGetRequest("./message/shortMessage.txt", function (request) {
+            document.querySelector("#shortMessage").innerHTML = request.responseText;
+            console.log(request);
+            }
+        );
+    };
+
     UseAjax.LoadNetCurtains = function () {
         ShowLoading();
         $AjaxUtils.SendGetRequest("./snippets/netCurtains.html", HandleResponse);
@@ -172,6 +180,8 @@
 
     global.$UseAjax = UseAjax; // Exposing the namespace.
 })(window); // Calling IIFE.
+
+$UseAjax.LoadShortMessage();
 
 document.getElementById("netCurtains").onclick = $UseAjax.LoadNetCurtains;
 document.getElementById("curtains").onclick = $UseAjax.LoadCurtains;
