@@ -37,6 +37,8 @@ h1 {
 	margin-bottom: 6px;
 	color: #5D478B;
 	font-weight: bold;
+	overflow: visible;
+	white-space: nowrap;
 }
 
 h2 {
